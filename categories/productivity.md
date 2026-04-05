@@ -30,6 +30,32 @@
   Tags: notes, pkm, productivity
   Notes: Outliner-based knowledge management for structured daily work.
 
+## Content and Workflow Utilities
+
+- ChatGPT
+  Link: https://chatgpt.com/
+  Category: Tool
+  Tags: ai, assistant, writing, research
+  Notes: General-purpose AI assistant for ideation, writing, research, and day-to-day workflow support.
+
+- iLovePDF
+  Link: https://www.ilovepdf.com/
+  Category: Tool
+  Tags: pdf, documents, utility, workflow
+  Notes: Browser toolkit for merging, compressing, converting, and editing PDF files.
+
+- Inflact
+  Link: https://inflact.com/
+  Category: Tool
+  Tags: social-media, marketing, automation, workflow
+  Notes: Social media toolkit for planning, automation, and content workflow support.
+
+- Picsart AI Writer
+  Link: https://tools.picsart.com/text/ai-writer/
+  Category: Tool
+  Tags: ai, writing, content, productivity
+  Notes: AI writing tool for generating and refining text content for drafts, posts, and lightweight content tasks.
+
 ## Developer Efficiency
 
 - tmux

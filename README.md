@@ -1,6 +1,6 @@
-# Dev Resource Hub
+# Resource Hub
 
-Dev Resource Hub is a Markdown-first resource hub for storing and organizing high-value links, references, tools, guides, and useful resources from any domain in a way that stays searchable, maintainable, and GitHub-friendly over time.
+Resource Hub is a Markdown-first resource hub for storing and organizing high-value links, references, tools, guides, and useful resources from any domain in a way that stays searchable, maintainable, and GitHub-friendly over time.
 
 It is designed as a centralized resource hub, a categorized link collection, a personal knowledge system, a daily utility reference, and a long-term searchable archive that can scale from a handful of links to thousands of entries without needing a database or backend.
 
@@ -18,6 +18,9 @@ It is designed as a centralized resource hub, a categorized link collection, a p
 - [Security](categories/security.md)
 - [System Design](categories/system-design.md)
 - [Learning](categories/learning.md)
+- [Finance](categories/finance.md)
+- [Career](categories/career.md)
+- [Media](categories/media.md)
 
 ## Repository Structure
 
@@ -36,7 +39,10 @@ dev-resource-hub/
 		|-- productivity.md
 		|-- security.md
 		|-- system-design.md
-		`-- learning.md
+		|-- learning.md
+		|-- finance.md
+		|-- career.md
+		`-- media.md
 ```
 
 This structure is intentionally simple and flexible. New domains can be supported by adding another Markdown file under `categories/` and linking it from this README without restructuring the repository.

@@ -16,6 +16,12 @@
   Tags: git, github, terminal
   Notes: Streamlines repository, PR, and issue workflows from the command line.
 
+- Cursor
+  Link: https://cursor.com/
+  Category: Tool
+  Tags: ai, editor, coding, productivity
+  Notes: AI-native code editor focused on assisted development and codebase workflows.
+
 ## Inspection and Analysis
 
 - jq
@@ -32,17 +38,17 @@
 
 ## AI-Assisted Tools
 
-- Turbo AI
-  Link: https://www.turbo.ai/
-  Category: Tool
-  Tags: ai, notes, study, productivity
-  Notes: AI study and note-taking tool that can turn PDFs, videos, and audio into notes, flashcards, and quizzes.
-
 - GeoSpy AI
   Link: https://geospy.ai
   Category: Tool
   Tags: ai, geolocation, osint, analysis
   Notes: AI-powered image geolocation tool useful for research, investigation, and location-based analysis workflows.
+
+- Microsoft Vision Image Captioning Demo
+  Link: https://portal.vision.cognitive.azure.com/demo/image-captioning
+  Category: Tool
+  Tags: ai, vision, image, captions
+  Notes: Browser demo for generating image captions with Azure AI Vision.
 
 ## Package and Runtime Tooling
 
