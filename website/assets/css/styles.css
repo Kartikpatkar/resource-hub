@@ -322,10 +322,22 @@ h1 {
   background: var(--blue);
 }
 
+.category-toggle {
+  border: 1px solid var(--line-strong);
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 999px;
+  color: var(--muted);
+  background: #ffffff;
+  white-space: nowrap;
+}
+
 #clear-search:hover,
 #clear-search:focus-visible,
 .reset-button:hover,
 .reset-button:focus-visible,
+.category-toggle:hover,
+.category-toggle:focus-visible,
 .visit-link:hover,
 .visit-link:focus-visible,
 .category-card:hover,
@@ -373,6 +385,10 @@ h1 {
   background: transparent;
   border: 0;
   box-shadow: none;
+}
+
+body.categories-collapsed #directory {
+  margin-top: 14px;
 }
 
 #categories {
@@ -505,6 +521,8 @@ h1 {
 }
 
 .resource-card {
+  --resource-logo-size: 38px;
+  --resource-gap: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -523,15 +541,20 @@ h1 {
 }
 
 .resource-card-top {
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 10px;
 }
 
 .resource-identity {
-  display: flex;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: var(--resource-logo-size) minmax(0, 1fr);
+  align-items: start;
+  gap: var(--resource-gap);
+  min-width: 0;
+}
+
+.resource-copy {
   min-width: 0;
 }
 
@@ -548,16 +571,22 @@ h1 {
   margin: 0;
   font-size: 1rem;
   line-height: 1.25;
+  overflow-wrap: anywhere;
 }
 
 .resource-type {
   align-self: start;
+  width: fit-content;
+  max-width: calc(100% - (var(--resource-logo-size) + var(--resource-gap)));
+  margin-left: calc(var(--resource-logo-size) + var(--resource-gap));
   padding: 6px 9px;
   border-radius: 999px;
   background: #f8fafc;
   border: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.74rem;
+  line-height: 1.3;
+  white-space: normal;
 }
 
 .resource-description {
@@ -590,7 +619,6 @@ h1 {
   z-index: 12;
   margin: 0 -4px 12px;
   padding: 8px 4px 10px;
-  background: linear-gradient(180deg, rgba(248, 250, 252, 0.98), rgba(248, 250, 252, 0.9) 72%, transparent);
   backdrop-filter: blur(10px);
 }
 
@@ -833,6 +861,10 @@ h1 {
     margin-top: 18px;
   }
 
+  body.categories-collapsed #directory {
+    margin-top: 8px;
+  }
+
   #categories {
     margin-bottom: 6px;
   }
@@ -901,6 +933,7 @@ h1 {
   }
 
   .resource-card {
+    --resource-logo-size: 34px;
     gap: 8px;
     padding: 12px;
     border-radius: 16px;
@@ -971,8 +1004,17 @@ h1 {
     flex-wrap: wrap;
   }
 
+  .category-toggle,
+  #clear-search {
+    flex: 0 0 auto;
+  }
+
   #clear-search,
   .reset-button {
+    width: 100%;
+  }
+
+  .category-toggle {
     width: 100%;
   }
 

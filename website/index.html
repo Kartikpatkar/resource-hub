@@ -63,6 +63,15 @@
                   placeholder="Search by name, notes, tags, or category"
                   autocomplete="off"
                 >
+                <button
+                  class="category-toggle"
+                  id="category-toggle"
+                  type="button"
+                  aria-controls="categories"
+                  aria-expanded="false"
+                >
+                  Categories
+                </button>
                 <button id="clear-search" type="button" aria-label="Clear search">Clear</button>
               </div>
               <p class="hero-meta" id="hero-meta">Loading resource summary...</p>
@@ -71,7 +80,7 @@
           </div>
         </section>
 
-        <section class="section section-reveal" id="categories">
+        <section class="section section-reveal is-collapsed" id="categories" hidden>
           <div class="section-heading">
             <div>
               <p class="eyebrow">Browse by category</p>
@@ -154,7 +163,7 @@
               <img class="resource-logo" alt="" loading="lazy" referrerpolicy="no-referrer">
               <span class="resource-category-icon"></span>
             </div>
-            <div>
+            <div class="resource-copy">
               <p class="resource-category"></p>
               <h3 class="resource-name"></h3>
             </div>

@@ -41,17 +41,20 @@ const state = {
   resources: [],
   categories: [],
   activeCategory: "all",
+  categoriesVisible: false,
   query: "",
   quickSearches: [],
   topResultsOnly: true,
 };
 
 const elements = {
+  categoriesSection: document.querySelector("#categories"),
   categoryGrid: document.querySelector("#category-grid"),
   resourceGrid: document.querySelector("#resource-grid"),
   categoryFilters: document.querySelector("#category-filters"),
   resultsSummary: document.querySelector("#results-summary"),
   searchInput: document.querySelector("#search-input"),
+  categoryToggle: document.querySelector("#category-toggle"),
   clearSearch: document.querySelector("#clear-search"),
   resetFilters: document.querySelector("#reset-filters"),
   resultsModeToggle: document.querySelector("#results-mode-toggle"),
@@ -70,6 +73,7 @@ const elements = {
 
 renderStaticIcons();
 bindEvents();
+syncCategoryVisibility();
 
 init().catch((error) => {
   console.error(error);
@@ -107,6 +111,9 @@ function bindEvents() {
     renderDirectory();
   });
 
+  elements.categoryToggle?.addEventListener("click", () => {
+    toggleCategories();
+  });
   elements.clearSearch.addEventListener("click", resetFilters);
   elements.resetFilters?.addEventListener("click", resetFilters);
   elements.resultsModeToggle?.addEventListener("click", () => {
@@ -124,7 +131,21 @@ function bindEvents() {
   elements.mobileOverlay?.addEventListener("click", closeMobileNav);
 
   document.querySelectorAll(".mobile-link").forEach((link) => {
-    link.addEventListener("click", closeMobileNav);
+    link.addEventListener("click", (event) => {
+      if (link.getAttribute("href") === "#categories") {
+        event.preventDefault();
+        openCategories();
+      }
+
+      closeMobileNav();
+    });
+  });
+
+  document.querySelectorAll('a[href="#categories"]').forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      openCategories();
+    });
   });
 
   document.addEventListener("keydown", (event) => {
@@ -193,6 +214,38 @@ function renderCategoryCards() {
 
     elements.categoryGrid.append(button);
   });
+}
+
+function toggleCategories() {
+  if (state.categoriesVisible) {
+    closeCategories();
+    return;
+  }
+
+  openCategories();
+}
+
+function openCategories() {
+  state.categoriesVisible = true;
+  syncCategoryVisibility();
+  elements.categoriesSection?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function closeCategories() {
+  state.categoriesVisible = false;
+  syncCategoryVisibility();
+}
+
+function syncCategoryVisibility() {
+  if (!elements.categoriesSection || !elements.categoryToggle) {
+    return;
+  }
+
+  elements.categoriesSection.hidden = !state.categoriesVisible;
+  elements.categoriesSection.classList.toggle("is-collapsed", !state.categoriesVisible);
+  elements.categoryToggle.textContent = state.categoriesVisible ? "Hide categories" : "Categories";
+  elements.categoryToggle.setAttribute("aria-expanded", String(state.categoriesVisible));
+  document.body.classList.toggle("categories-collapsed", !state.categoriesVisible);
 }
 
 function renderFilterChips() {
