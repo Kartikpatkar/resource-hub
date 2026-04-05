@@ -43,22 +43,20 @@ const state = {
   activeCategory: "all",
   query: "",
   quickSearches: [],
+  topResultsOnly: true,
 };
 
 const elements = {
   categoryGrid: document.querySelector("#category-grid"),
-  featuredGrid: document.querySelector("#featured-grid"),
-  recentGrid: document.querySelector("#recent-grid"),
   resourceGrid: document.querySelector("#resource-grid"),
   categoryFilters: document.querySelector("#category-filters"),
   resultsSummary: document.querySelector("#results-summary"),
   searchInput: document.querySelector("#search-input"),
   clearSearch: document.querySelector("#clear-search"),
   resetFilters: document.querySelector("#reset-filters"),
+  resultsModeToggle: document.querySelector("#results-mode-toggle"),
   emptyState: document.querySelector("#empty-state"),
-  statResources: document.querySelector("#stat-resources"),
-  statCategories: document.querySelector("#stat-categories"),
-  statTags: document.querySelector("#stat-tags"),
+  heroMeta: document.querySelector("#hero-meta"),
   quickSearches: document.querySelector("#quick-searches"),
   menuButton: document.querySelector("#menu-button"),
   mobileNav: document.querySelector("#mobile-nav"),
@@ -92,7 +90,6 @@ async function init() {
   renderQuickSearches();
   renderCategoryCards();
   renderFilterChips();
-  renderSpotlights();
   renderDirectory();
 }
 
@@ -112,6 +109,10 @@ function bindEvents() {
 
   elements.clearSearch.addEventListener("click", resetFilters);
   elements.resetFilters?.addEventListener("click", resetFilters);
+  elements.resultsModeToggle?.addEventListener("click", () => {
+    state.topResultsOnly = !state.topResultsOnly;
+    renderDirectory();
+  });
 
   elements.menuButton?.addEventListener("click", () => {
     elements.mobileNav.classList.add("is-open");
@@ -137,17 +138,11 @@ function bindEvents() {
     }
   });
 
-  window.addEventListener("resize", debounce(() => {
-    renderSpotlights();
-  }, 120));
 }
 
 function hydrateStats() {
   const allTags = new Set(state.resources.flatMap((resource) => resource.tags));
-
-  elements.statResources.textContent = state.resources.length;
-  elements.statCategories.textContent = state.categories.length;
-  elements.statTags.textContent = allTags.size;
+  elements.heroMeta.textContent = `${state.resources.length} resources across ${state.categories.length} categories and ${allTags.size} tags.`;
 }
 
 function renderQuickSearches() {
@@ -226,21 +221,14 @@ function renderFilterChips() {
   });
 }
 
-function renderSpotlights() {
-  const spotlightCount = window.matchMedia("(max-width: 640px)").matches ? 2 : 4;
-  const featured = state.resources.filter((resource) => resource.featured).slice(0, spotlightCount);
-  const recent = [...state.resources].sort((left, right) => right.order - left.order).slice(0, spotlightCount);
-
-  renderResourceList(elements.featuredGrid, featured);
-  renderResourceList(elements.recentGrid, recent);
-}
-
 function renderDirectory() {
   const filtered = getFilteredResources();
-  renderResourceList(elements.resourceGrid, filtered);
+  const visible = getVisibleResources(filtered);
+  renderResourceList(elements.resourceGrid, visible);
 
-  elements.resultsSummary.textContent = buildResultsCopy(filtered.length);
+  elements.resultsSummary.textContent = buildResultsCopy(filtered.length, visible.length);
   elements.emptyState.classList.toggle("hidden", filtered.length > 0);
+  updateResultsModeToggle(filtered.length);
 }
 
 function getFilteredResources() {
@@ -295,13 +283,17 @@ function renderResourceList(container, resources) {
   });
 }
 
-function buildResultsCopy(total) {
+function buildResultsCopy(total, visible) {
   const queryPart = state.query ? ` for "${state.query}"` : "";
   const categoryPart = state.activeCategory !== "all"
     ? ` in ${state.categories.find((item) => item.slug === state.activeCategory)?.name ?? "selected category"}`
     : " across all categories";
 
-  return `${total} result${total === 1 ? "" : "s"}${queryPart}${categoryPart}.`;
+  const visiblePart = state.topResultsOnly && total > visible
+    ? ` Showing top ${visible}.`
+    : "";
+
+  return `${total} result${total === 1 ? "" : "s"}${queryPart}${categoryPart}.${visiblePart}`;
 }
 
 function resetFilters() {
@@ -311,6 +303,27 @@ function resetFilters() {
   renderCategoryCards();
   renderFilterChips();
   renderDirectory();
+}
+
+function getVisibleResources(resources) {
+  if (!state.topResultsOnly) {
+    return resources;
+  }
+
+  const limit = window.matchMedia("(max-width: 640px)").matches ? 12 : 24;
+  return resources.slice(0, limit);
+}
+
+function updateResultsModeToggle(total) {
+  if (!elements.resultsModeToggle) {
+    return;
+  }
+
+  const limit = window.matchMedia("(max-width: 640px)").matches ? 12 : 24;
+  const hasOverflow = total > limit;
+  elements.resultsModeToggle.hidden = !hasOverflow;
+  elements.resultsModeToggle.textContent = state.topResultsOnly ? "Show all results" : "Top results only";
+  elements.resultsModeToggle.setAttribute("aria-pressed", String(state.topResultsOnly));
 }
 
 function closeMobileNav() {
