@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "apis",
+    "name": "API",
+    "count": 12,
+    "description": "API references, tools, mock services, and public data endpoints.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md"
+  },
+  {
+    "slug": "career",
+    "name": "Career",
+    "count": 4,
+    "description": "Career planning, salaries, interview prep, and growth resources.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md"
+  },
+  {
+    "slug": "chrome-extensions",
+    "name": "Chrome Extensions",
+    "count": 6,
+    "description": "Browser extensions that improve workflows and everyday browsing.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md"
+  },
+  {
+    "slug": "debugging",
+    "name": "Debugging",
+    "count": 6,
+    "description": "Troubleshooting, inspection, and issue diagnosis references.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md"
+  },
+  {
+    "slug": "dev-tools",
+    "name": "Tools",
+    "count": 9,
+    "description": "Developer-oriented tools, runtimes, and technical inspection utilities.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md"
+  },
+  {
+    "slug": "finance",
+    "name": "Finance",
+    "count": 1,
+    "description": "Finance and market-research resources for tracking and analysis.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/finance.md"
+  },
+  {
+    "slug": "javascript",
+    "name": "JavaScript",
+    "count": 6,
+    "description": "JavaScript references, libraries, and core learning materials.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md"
+  },
+  {
+    "slug": "learning",
+    "name": "Learning",
+    "count": 20,
+    "description": "Learning platforms, skill-building tools, and structured practice resources.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md"
+  },
+  {
+    "slug": "media",
+    "name": "Media",
+    "count": 11,
+    "description": "Media creation, video editing, image utilities, and visual publishing tools.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md"
+  },
+  {
+    "slug": "productivity",
+    "name": "Productivity",
+    "count": 10,
+    "description": "Workflow, organization, note-taking, and general-use utility tools.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md"
+  },
+  {
+    "slug": "salesforce",
+    "name": "Salesforce",
+    "count": 11,
+    "description": "Salesforce resources, tools, references, and platform-specific learning.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md"
+  },
+  {
+    "slug": "security",
+    "name": "Security",
+    "count": 6,
+    "description": "Security references, tooling, and secure-development guidance.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md"
+  },
+  {
+    "slug": "system-design",
+    "name": "System Design",
+    "count": 6,
+    "description": "Architecture, scalability, and system-design learning resources.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md"
+  },
+  {
+    "slug": "testing",
+    "name": "Testing",
+    "count": 6,
+    "description": "Testing frameworks, QA references, and validation workflows.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md"
+  },
+  {
+    "slug": "ui-ux",
+    "name": "UI / UX",
+    "count": 13,
+    "description": "UI systems, visual design references, assets, and accessibility tools.",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md"
+  }
+]

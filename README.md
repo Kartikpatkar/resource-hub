@@ -27,25 +27,37 @@ It is designed as a centralized resource hub, a categorized link collection, a p
 ```text
 dev-resource-hub/
 |-- README.md
-`-- categories/
-		|-- salesforce.md
-		|-- chrome-extensions.md
-		|-- javascript.md
-		|-- apis.md
-		|-- dev-tools.md
-		|-- debugging.md
-		|-- testing.md
-		|-- ui-ux.md
-		|-- productivity.md
-		|-- security.md
-		|-- system-design.md
-		|-- learning.md
-		|-- finance.md
-		|-- career.md
-		`-- media.md
+|-- categories/
+|   |-- salesforce.md
+|   |-- chrome-extensions.md
+|   |-- javascript.md
+|   |-- apis.md
+|   |-- dev-tools.md
+|   |-- debugging.md
+|   |-- testing.md
+|   |-- ui-ux.md
+|   |-- productivity.md
+|   |-- security.md
+|   |-- system-design.md
+|   |-- learning.md
+|   |-- finance.md
+|   |-- career.md
+|   `-- media.md
+`-- website/
+    |-- index.html
+    |-- assets/
+    |   |-- css/
+    |   |   `-- styles.css
+    |   `-- js/
+    |       `-- app.js
+    |-- data/
+    |   |-- categories.json
+    |   `-- resources.json
+    `-- scripts/
+        `-- sync-resources.js
 ```
 
-This structure is intentionally simple and flexible. New domains can be supported by adding another Markdown file under `categories/` and linking it from this README without restructuring the repository.
+This structure is intentionally simple and flexible. New domains can be supported by adding another Markdown file under `categories/` and linking it from this README without restructuring the repository. The `website/` folder stays separate so the GitHub-friendly Markdown source and the public-facing website do not get mixed together.
 
 ## How to Use
 

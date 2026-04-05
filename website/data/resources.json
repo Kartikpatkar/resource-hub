@@ -1,0 +1,2346 @@
+[
+  {
+    "id": "apis-openapi-specification",
+    "name": "OpenAPI Specification",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Documentation",
+    "resourceType": "Documentation",
+    "description": "Standard reference for documenting and describing REST APIs.",
+    "tags": [
+      "api",
+      "openapi",
+      "contracts"
+    ],
+    "url": "https://swagger.io/specification/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 1,
+    "featured": true
+  },
+  {
+    "id": "apis-rest-api-tutorial",
+    "name": "REST API Tutorial",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Documentation",
+    "resourceType": "Documentation",
+    "description": "Practical reference for REST design principles and common patterns.",
+    "tags": [
+      "api",
+      "rest",
+      "learning"
+    ],
+    "url": "https://restfulapi.net",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 2,
+    "featured": false
+  },
+  {
+    "id": "apis-postman",
+    "name": "Postman",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Popular platform for sending requests, building collections, and testing APIs.",
+    "tags": [
+      "api",
+      "testing",
+      "collaboration"
+    ],
+    "url": "https://www.postman.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 3,
+    "featured": false
+  },
+  {
+    "id": "apis-hoppscotch",
+    "name": "Hoppscotch",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Fast web-based API client for quick request and response inspection.",
+    "tags": [
+      "api",
+      "lightweight",
+      "requests"
+    ],
+    "url": "https://hoppscotch.io",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 4,
+    "featured": false
+  },
+  {
+    "id": "apis-mockapi",
+    "name": "MockAPI",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Hosted mock API service for prototyping, testing, and frontend development.",
+    "tags": [
+      "api",
+      "mock",
+      "backend",
+      "testing"
+    ],
+    "url": "https://mockapi.io/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 5,
+    "featured": false
+  },
+  {
+    "id": "apis-my-json-server",
+    "name": "My JSON Server",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Quick way to turn a GitHub repository into a fake REST API for demos and prototypes.",
+    "tags": [
+      "api",
+      "mock",
+      "github",
+      "testing"
+    ],
+    "url": "https://my-json-server.typicode.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 6,
+    "featured": false
+  },
+  {
+    "id": "apis-google-cloud-api-library",
+    "name": "Google Cloud API Library",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Tools",
+    "resourceType": "Documentation",
+    "description": "Central catalog for discovering and enabling Google Cloud APIs and services.",
+    "tags": [
+      "api",
+      "google-cloud",
+      "catalog",
+      "cloud"
+    ],
+    "url": "https://console.cloud.google.com/apis/library",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 7,
+    "featured": false
+  },
+  {
+    "id": "apis-nasa-eonet",
+    "name": "NASA EONET",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Public Data APIs",
+    "resourceType": "Documentation",
+    "description": "Open NASA API for near real-time natural event metadata, categories, sources, and imagery-linked event data.",
+    "tags": [
+      "api",
+      "nasa",
+      "open-data",
+      "events"
+    ],
+    "url": "https://eonet.gsfc.nasa.gov/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 8,
+    "featured": false
+  },
+  {
+    "id": "apis-openweather",
+    "name": "OpenWeather",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Public Data APIs",
+    "resourceType": "Documentation",
+    "description": "Weather data platform with APIs for forecasts, current conditions, and environmental data.",
+    "tags": [
+      "api",
+      "weather",
+      "open-data",
+      "forecast"
+    ],
+    "url": "https://openweathermap.org/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 9,
+    "featured": false
+  },
+  {
+    "id": "apis-public-apis",
+    "name": "Public APIs",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Public Data APIs",
+    "resourceType": "Documentation",
+    "description": "Large community-maintained directory of free and public APIs across many domains.",
+    "tags": [
+      "api",
+      "directory",
+      "open-data",
+      "github"
+    ],
+    "url": "https://github.com/public-apis/public-apis",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 10,
+    "featured": false
+  },
+  {
+    "id": "apis-news-api",
+    "name": "News API",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Public Data APIs",
+    "resourceType": "Documentation",
+    "description": "API for searching headlines, publishers, and news content across sources.",
+    "tags": [
+      "api",
+      "news",
+      "content",
+      "search"
+    ],
+    "url": "https://newsapi.org/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 11,
+    "featured": false
+  },
+  {
+    "id": "apis-royaleapi",
+    "name": "RoyaleAPI",
+    "category": "API",
+    "categorySlug": "apis",
+    "section": "Public Data APIs",
+    "resourceType": "Documentation",
+    "description": "Reference site and API resources for Clash Royale data, decks, and card insights.",
+    "tags": [
+      "api",
+      "gaming",
+      "stats",
+      "reference"
+    ],
+    "url": "https://royaleapi.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "order": 12,
+    "featured": false
+  },
+  {
+    "id": "career-roadmap-sh",
+    "name": "roadmap.sh",
+    "category": "Career",
+    "categorySlug": "career",
+    "section": "Planning and Growth",
+    "resourceType": "Documentation",
+    "description": "Practical role-based and topic-based maps for structured skill development.",
+    "tags": [
+      "career",
+      "learning",
+      "roadmap",
+      "planning"
+    ],
+    "url": "https://roadmap.sh",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "order": 13,
+    "featured": true
+  },
+  {
+    "id": "career-unstop",
+    "name": "Unstop",
+    "category": "Career",
+    "categorySlug": "career",
+    "section": "Planning and Growth",
+    "resourceType": "Tutorial",
+    "description": "Platform for challenges, learning opportunities, and career-oriented skill events.",
+    "tags": [
+      "career",
+      "competitions",
+      "learning",
+      "practice"
+    ],
+    "url": "https://unstop.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "order": 14,
+    "featured": false
+  },
+  {
+    "id": "career-indeed-salaries",
+    "name": "Indeed Salaries",
+    "category": "Career",
+    "categorySlug": "career",
+    "section": "Salaries and Market Research",
+    "resourceType": "Documentation",
+    "description": "Salary research tool for comparing roles, companies, and compensation trends.",
+    "tags": [
+      "careers",
+      "salaries",
+      "research",
+      "jobs"
+    ],
+    "url": "https://in.indeed.com/career/salaries?from=gnav-homepage",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "order": 15,
+    "featured": false
+  },
+  {
+    "id": "career-i-got-an-offer-engineering",
+    "name": "I Got An Offer Engineering",
+    "category": "Career",
+    "categorySlug": "career",
+    "section": "Interview Preparation",
+    "resourceType": "Tutorial",
+    "description": "Engineering interview preparation content covering coding, system design, and hiring strategy.",
+    "tags": [
+      "interviews",
+      "engineering",
+      "youtube",
+      "career"
+    ],
+    "url": "https://www.youtube.com/@IGotAnOffer-Engineering",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "order": 16,
+    "featured": false
+  },
+  {
+    "id": "chrome-extensions-onetab",
+    "name": "OneTab",
+    "category": "Chrome Extensions",
+    "categorySlug": "chrome-extensions",
+    "section": "Productivity",
+    "resourceType": "Tool",
+    "description": "Reduces browser tab clutter by converting tabs into a restorable list.",
+    "tags": [
+      "chrome",
+      "tabs",
+      "productivity"
+    ],
+    "url": "https://www.one-tab.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "order": 17,
+    "featured": true
+  },
+  {
+    "id": "chrome-extensions-ublock-origin",
+    "name": "uBlock Origin",
+    "category": "Chrome Extensions",
+    "categorySlug": "chrome-extensions",
+    "section": "Productivity",
+    "resourceType": "Tool",
+    "description": "Efficient content blocker that improves browsing focus and performance.",
+    "tags": [
+      "chrome",
+      "privacy",
+      "browsing"
+    ],
+    "url": "https://github.com/gorhill/uBlock",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "order": 18,
+    "featured": false
+  },
+  {
+    "id": "chrome-extensions-jsonvue",
+    "name": "JSONVue",
+    "category": "Chrome Extensions",
+    "categorySlug": "chrome-extensions",
+    "section": "Developer Workflow",
+    "resourceType": "Tool",
+    "description": "Makes JSON responses easier to inspect directly in the browser.",
+    "tags": [
+      "chrome",
+      "json",
+      "api"
+    ],
+    "url": "https://chromewebstore.google.com/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "order": 19,
+    "featured": false
+  },
+  {
+    "id": "chrome-extensions-wappalyzer",
+    "name": "Wappalyzer",
+    "category": "Chrome Extensions",
+    "categorySlug": "chrome-extensions",
+    "section": "Developer Workflow",
+    "resourceType": "Tool",
+    "description": "Identifies technologies used by websites for quick reconnaissance.",
+    "tags": [
+      "chrome",
+      "stack",
+      "discovery"
+    ],
+    "url": "https://www.wappalyzer.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "order": 20,
+    "featured": false
+  },
+  {
+    "id": "chrome-extensions-postman-interceptor",
+    "name": "Postman Interceptor",
+    "category": "Chrome Extensions",
+    "categorySlug": "chrome-extensions",
+    "section": "Testing and Debugging",
+    "resourceType": "Tool",
+    "description": "Syncs browser network data and cookies into Postman workflows.",
+    "tags": [
+      "chrome",
+      "api",
+      "testing"
+    ],
+    "url": "https://chromewebstore.google.com/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "order": 21,
+    "featured": false
+  },
+  {
+    "id": "chrome-extensions-react-developer-tools",
+    "name": "React Developer Tools",
+    "category": "Chrome Extensions",
+    "categorySlug": "chrome-extensions",
+    "section": "Testing and Debugging",
+    "resourceType": "Tool",
+    "description": "Inspects React component trees, props, and state in the browser.",
+    "tags": [
+      "chrome",
+      "react",
+      "debugging"
+    ],
+    "url": "https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "order": 22,
+    "featured": false
+  },
+  {
+    "id": "debugging-chrome-devtools-documentation",
+    "name": "Chrome DevTools Documentation",
+    "category": "Debugging",
+    "categorySlug": "debugging",
+    "section": "Browser Debugging",
+    "resourceType": "Documentation",
+    "description": "Official reference for inspecting DOM, network, performance, and memory.",
+    "tags": [
+      "debugging",
+      "browser",
+      "devtools"
+    ],
+    "url": "https://developer.chrome.com/docs/devtools/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "order": 23,
+    "featured": true
+  },
+  {
+    "id": "debugging-firefox-developer-tools",
+    "name": "Firefox Developer Tools",
+    "category": "Debugging",
+    "categorySlug": "debugging",
+    "section": "Browser Debugging",
+    "resourceType": "Documentation",
+    "description": "Useful alternative browser tooling documentation for frontend debugging.",
+    "tags": [
+      "debugging",
+      "firefox",
+      "browser"
+    ],
+    "url": "https://firefox-source-docs.mozilla.org/devtools-user/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "order": 24,
+    "featured": false
+  },
+  {
+    "id": "debugging-vs-code-debugging",
+    "name": "VS Code Debugging",
+    "category": "Debugging",
+    "categorySlug": "debugging",
+    "section": "Application Debugging",
+    "resourceType": "Documentation",
+    "description": "Covers breakpoints, launch configurations, and debugger setup.",
+    "tags": [
+      "debugging",
+      "vscode",
+      "workflow"
+    ],
+    "url": "https://code.visualstudio.com/docs/editor/debugging",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "order": 25,
+    "featured": false
+  },
+  {
+    "id": "debugging-node-js-debugging-guide",
+    "name": "Node.js Debugging Guide",
+    "category": "Debugging",
+    "categorySlug": "debugging",
+    "section": "Application Debugging",
+    "resourceType": "Documentation",
+    "description": "Good starting point for debugging JavaScript outside the browser.",
+    "tags": [
+      "debugging",
+      "nodejs",
+      "backend"
+    ],
+    "url": "https://nodejs.org/en/docs/guides/debugging-getting-started/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "order": 26,
+    "featured": false
+  },
+  {
+    "id": "debugging-debugging-book",
+    "name": "Debugging Book",
+    "category": "Debugging",
+    "categorySlug": "debugging",
+    "section": "Reference Material",
+    "resourceType": "Tutorial",
+    "description": "Deep technical material on debugging concepts, causes, and strategies.",
+    "tags": [
+      "debugging",
+      "engineering",
+      "learning"
+    ],
+    "url": "https://www.debuggingbook.org",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "order": 27,
+    "featured": false
+  },
+  {
+    "id": "debugging-salesforce-debug-logs",
+    "name": "Salesforce Debug Logs",
+    "category": "Debugging",
+    "categorySlug": "debugging",
+    "section": "Reference Material",
+    "resourceType": "Documentation",
+    "description": "Official guide for reading and using Salesforce debug logs effectively.",
+    "tags": [
+      "salesforce",
+      "debugging",
+      "logs"
+    ],
+    "url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_debugging_debug_log.htm",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "order": 28,
+    "featured": false
+  },
+  {
+    "id": "dev-tools-visual-studio-code",
+    "name": "Visual Studio Code",
+    "category": "Tools",
+    "categorySlug": "dev-tools",
+    "section": "Essential Tools",
+    "resourceType": "Tool",
+    "description": "Flexible editor with strong extension support for most development workflows.",
+    "tags": [
+      "editor",
+      "ide",
+      "productivity"
+    ],
+    "url": "https://code.visualstudio.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "order": 29,
+    "featured": true
+  },
+  {
+    "id": "dev-tools-github-cli",
+    "name": "GitHub CLI",
+    "category": "Tools",
+    "categorySlug": "dev-tools",
+    "section": "Essential Tools",
+    "resourceType": "Tool",
+    "description": "Streamlines repository, PR, and issue workflows from the command line.",
+    "tags": [
+      "git",
+      "github",
+      "terminal"
+    ],
+    "url": "https://cli.github.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "order": 30,
+    "featured": false
+  },
+  {
+    "id": "dev-tools-cursor",
+    "name": "Cursor",
+    "category": "Tools",
+    "categorySlug": "dev-tools",
+    "section": "Essential Tools",
+    "resourceType": "Tool",
+    "description": "AI-native code editor focused on assisted development and codebase workflows.",
+    "tags": [
+      "ai",
+      "editor",
+      "coding",
+      "productivity"
+    ],
+    "url": "https://cursor.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "order": 31,
+    "featured": false
+  },
+  {
+    "id": "dev-tools-jq",
+    "name": "jq",
+    "category": "Tools",
+    "categorySlug": "dev-tools",
+    "section": "Inspection and Analysis",
+    "resourceType": "Tool",
+    "description": "Command-line processor for filtering and transforming JSON output.",
+    "tags": [
+      "json",
+      "terminal",
+      "data"
+    ],
+    "url": "https://jqlang.org",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "order": 32,
+    "featured": false
+  },
+  {
+    "id": "dev-tools-ripgrep",
+    "name": "ripgrep",
+    "category": "Tools",
+    "categorySlug": "dev-tools",
+    "section": "Inspection and Analysis",
+    "resourceType": "Tool",
+    "description": "Extremely fast recursive text search for large repositories.",
+    "tags": [
+      "search",
+      "terminal",
+      "codebase"
+    ],
+    "url": "https://github.com/BurntSushi/ripgrep",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "order": 33,
+    "featured": false
+  },
+  {
+    "id": "dev-tools-geospy-ai",
+    "name": "GeoSpy AI",
+    "category": "Tools",
+    "categorySlug": "dev-tools",
+    "section": "AI-Assisted Tools",
+    "resourceType": "Tool",
+    "description": "AI-powered image geolocation tool useful for research, investigation, and location-based analysis workflows.",
+    "tags": [
+      "ai",
+      "geolocation",
+      "osint",
+      "analysis"
+    ],
+    "url": "https://geospy.ai",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "order": 34,
+    "featured": false
+  },
+  {
+    "id": "dev-tools-microsoft-vision-image-captioning-demo",
+    "name": "Microsoft Vision Image Captioning Demo",
+    "category": "Tools",
+    "categorySlug": "dev-tools",
+    "section": "AI-Assisted Tools",
+    "resourceType": "Tool",
+    "description": "Browser demo for generating image captions with Azure AI Vision.",
+    "tags": [
+      "ai",
+      "vision",
+      "image",
+      "captions"
+    ],
+    "url": "https://portal.vision.cognitive.azure.com/demo/image-captioning",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "order": 35,
+    "featured": false
+  },
+  {
+    "id": "dev-tools-node-js",
+    "name": "Node.js",
+    "category": "Tools",
+    "categorySlug": "dev-tools",
+    "section": "Package and Runtime Tooling",
+    "resourceType": "Tool",
+    "description": "JavaScript runtime used for tooling, scripting, and application development.",
+    "tags": [
+      "runtime",
+      "javascript",
+      "ecosystem"
+    ],
+    "url": "https://nodejs.org",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "order": 36,
+    "featured": false
+  },
+  {
+    "id": "dev-tools-pnpm",
+    "name": "pnpm",
+    "category": "Tools",
+    "categorySlug": "dev-tools",
+    "section": "Package and Runtime Tooling",
+    "resourceType": "Tool",
+    "description": "Fast package manager with efficient disk usage and strong monorepo support.",
+    "tags": [
+      "package-manager",
+      "javascript",
+      "performance"
+    ],
+    "url": "https://pnpm.io",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "order": 37,
+    "featured": false
+  },
+  {
+    "id": "finance-ticker-by-finology",
+    "name": "Ticker by Finology",
+    "category": "Finance",
+    "categorySlug": "finance",
+    "section": "Market Research and Analysis",
+    "resourceType": "Tool",
+    "description": "Market research and stock analysis tool for screening companies and tracking market data.",
+    "tags": [
+      "finance",
+      "stocks",
+      "research",
+      "analysis"
+    ],
+    "url": "https://ticker.finology.in/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/finance.md",
+    "order": 38,
+    "featured": true
+  },
+  {
+    "id": "javascript-mdn-javascript-guide",
+    "name": "MDN JavaScript Guide",
+    "category": "JavaScript",
+    "categorySlug": "javascript",
+    "section": "Documentation",
+    "resourceType": "Documentation",
+    "description": "High-quality reference for language syntax, APIs, and browser behavior.",
+    "tags": [
+      "javascript",
+      "docs",
+      "fundamentals"
+    ],
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "order": 39,
+    "featured": true
+  },
+  {
+    "id": "javascript-ecmascript-specification",
+    "name": "ECMAScript Specification",
+    "category": "JavaScript",
+    "categorySlug": "javascript",
+    "section": "Documentation",
+    "resourceType": "Documentation",
+    "description": "Official specification for the JavaScript language.",
+    "tags": [
+      "javascript",
+      "spec",
+      "language"
+    ],
+    "url": "https://tc39.es/ecma262/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "order": 40,
+    "featured": false
+  },
+  {
+    "id": "javascript-lodash",
+    "name": "Lodash",
+    "category": "JavaScript",
+    "categorySlug": "javascript",
+    "section": "Libraries",
+    "resourceType": "Library",
+    "description": "Utility library for common collection, object, and function helpers.",
+    "tags": [
+      "javascript",
+      "utility",
+      "library"
+    ],
+    "url": "https://lodash.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "order": 41,
+    "featured": false
+  },
+  {
+    "id": "javascript-zod",
+    "name": "Zod",
+    "category": "JavaScript",
+    "categorySlug": "javascript",
+    "section": "Libraries",
+    "resourceType": "Library",
+    "description": "Schema validation library useful for forms, APIs, and shared contracts.",
+    "tags": [
+      "javascript",
+      "validation",
+      "types"
+    ],
+    "url": "https://zod.dev",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "order": 42,
+    "featured": false
+  },
+  {
+    "id": "javascript-javascript-info",
+    "name": "javascript.info",
+    "category": "JavaScript",
+    "categorySlug": "javascript",
+    "section": "Learning",
+    "resourceType": "Tutorial",
+    "description": "Structured learning path from core concepts to advanced topics.",
+    "tags": [
+      "javascript",
+      "tutorial",
+      "learning"
+    ],
+    "url": "https://javascript.info",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "order": 43,
+    "featured": false
+  },
+  {
+    "id": "javascript-you-don-t-know-js-yet",
+    "name": "You Don't Know JS Yet",
+    "category": "JavaScript",
+    "categorySlug": "javascript",
+    "section": "Learning",
+    "resourceType": "Tutorial",
+    "description": "Deep conceptual series on how JavaScript really works.",
+    "tags": [
+      "javascript",
+      "deep-dive",
+      "learning"
+    ],
+    "url": "https://github.com/getify/You-Dont-Know-JS",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "order": 44,
+    "featured": false
+  },
+  {
+    "id": "learning-freecodecamp",
+    "name": "freeCodeCamp",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "General Learning Platforms",
+    "resourceType": "Tutorial",
+    "description": "Broad platform for learning development through guided exercises and projects.",
+    "tags": [
+      "learning",
+      "web",
+      "practice"
+    ],
+    "url": "https://www.freecodecamp.org",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 45,
+    "featured": true
+  },
+  {
+    "id": "learning-coursera",
+    "name": "Coursera",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "General Learning Platforms",
+    "resourceType": "Tutorial",
+    "description": "Useful for deeper structured coursework across software and computer science topics.",
+    "tags": [
+      "learning",
+      "courses",
+      "structured"
+    ],
+    "url": "https://www.coursera.org",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 46,
+    "featured": false
+  },
+  {
+    "id": "learning-hackerrank",
+    "name": "HackerRank",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "General Learning Platforms",
+    "resourceType": "Tutorial",
+    "description": "Coding practice and assessment platform widely used for interview prep and skill-building.",
+    "tags": [
+      "coding",
+      "practice",
+      "interviews",
+      "learning"
+    ],
+    "url": "https://www.hackerrank.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 47,
+    "featured": false
+  },
+  {
+    "id": "learning-leetcode-explore",
+    "name": "LeetCode Explore",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "General Learning Platforms",
+    "resourceType": "Tutorial",
+    "description": "Guided topic-based learning tracks for coding interviews and algorithm practice.",
+    "tags": [
+      "coding",
+      "algorithms",
+      "interviews",
+      "practice"
+    ],
+    "url": "https://leetcode.com/explore/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 48,
+    "featured": false
+  },
+  {
+    "id": "learning-algoexpert",
+    "name": "AlgoExpert",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "General Learning Platforms",
+    "resourceType": "Tutorial",
+    "description": "Structured interview prep platform focused on coding and system design practice.",
+    "tags": [
+      "coding",
+      "interviews",
+      "algorithms",
+      "structured"
+    ],
+    "url": "https://www.algoexpert.io/product",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 49,
+    "featured": false
+  },
+  {
+    "id": "learning-refactoring-guru",
+    "name": "Refactoring Guru",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Engineering Writing and Concepts",
+    "resourceType": "Documentation",
+    "description": "Clear visual explanations of patterns, smells, and refactoring techniques.",
+    "tags": [
+      "design-patterns",
+      "refactoring",
+      "learning"
+    ],
+    "url": "https://refactoring.guru",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 50,
+    "featured": false
+  },
+  {
+    "id": "learning-high-scalability",
+    "name": "High Scalability",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Engineering Writing and Concepts",
+    "resourceType": "Documentation",
+    "description": "Real-world scaling stories and architecture breakdowns.",
+    "tags": [
+      "architecture",
+      "case-studies",
+      "learning"
+    ],
+    "url": "http://highscalability.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 51,
+    "featured": false
+  },
+  {
+    "id": "learning-mit-opencourseware",
+    "name": "MIT OpenCourseWare",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tutorial",
+    "description": "Open academic material for deeper computer science fundamentals.",
+    "tags": [
+      "learning",
+      "computer-science",
+      "courses"
+    ],
+    "url": "https://ocw.mit.edu",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 52,
+    "featured": false
+  },
+  {
+    "id": "learning-turbo-ai",
+    "name": "Turbo AI",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tool",
+    "description": "AI study and note-taking tool that turns PDFs, videos, and audio into notes, flashcards, and quizzes.",
+    "tags": [
+      "ai",
+      "notes",
+      "study",
+      "quizzes"
+    ],
+    "url": "https://www.turbo.ai/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 53,
+    "featured": false
+  },
+  {
+    "id": "learning-tutor-ai",
+    "name": "Tutor AI",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tool",
+    "description": "AI tutoring platform that builds personalized courses, quizzes, and study materials on demand.",
+    "tags": [
+      "ai",
+      "learning",
+      "tutoring",
+      "courses"
+    ],
+    "url": "https://tutorai.me/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 54,
+    "featured": false
+  },
+  {
+    "id": "learning-typingbolt",
+    "name": "TypingBolt",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tutorial",
+    "description": "Touch-typing practice platform for improving speed and accuracy.",
+    "tags": [
+      "typing",
+      "keyboard",
+      "practice",
+      "skills"
+    ],
+    "url": "https://www.typingbolt.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 55,
+    "featured": false
+  },
+  {
+    "id": "learning-codecombat",
+    "name": "CodeCombat",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tutorial",
+    "description": "Game-based coding platform that teaches programming through interactive challenges.",
+    "tags": [
+      "coding",
+      "games",
+      "learning",
+      "beginners"
+    ],
+    "url": "https://codecombat.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 56,
+    "featured": false
+  },
+  {
+    "id": "learning-codingame",
+    "name": "CodinGame",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tutorial",
+    "description": "Interactive programming challenges and competitions presented in game-like form.",
+    "tags": [
+      "coding",
+      "games",
+      "challenges",
+      "practice"
+    ],
+    "url": "https://www.codingame.com/start/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 57,
+    "featured": false
+  },
+  {
+    "id": "learning-codewars",
+    "name": "Codewars",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tutorial",
+    "description": "Community-driven coding challenge platform centered around kata-based practice.",
+    "tags": [
+      "coding",
+      "kata",
+      "practice",
+      "skills"
+    ],
+    "url": "https://www.codewars.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 58,
+    "featured": false
+  },
+  {
+    "id": "learning-flexbox-froggy",
+    "name": "Flexbox Froggy",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tutorial",
+    "description": "Fast interactive way to learn and reinforce CSS Flexbox concepts.",
+    "tags": [
+      "css",
+      "flexbox",
+      "frontend",
+      "learning"
+    ],
+    "url": "https://flexboxfroggy.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 59,
+    "featured": false
+  },
+  {
+    "id": "learning-exercism",
+    "name": "Exercism",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tutorial",
+    "description": "Practice platform with language tracks, exercises, and mentoring support.",
+    "tags": [
+      "coding",
+      "exercises",
+      "mentoring",
+      "learning"
+    ],
+    "url": "https://exercism.org/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 60,
+    "featured": false
+  },
+  {
+    "id": "learning-keybr",
+    "name": "Keybr",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Topic-Specific Learning",
+    "resourceType": "Tutorial",
+    "description": "Typing trainer focused on improving accuracy and typing muscle memory.",
+    "tags": [
+      "typing",
+      "keyboard",
+      "practice",
+      "productivity"
+    ],
+    "url": "https://www.keybr.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 61,
+    "featured": false
+  },
+  {
+    "id": "learning-blind-75-leetcode-questions",
+    "name": "Blind 75 LeetCode Questions",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Interview Prep and Practice",
+    "resourceType": "Tutorial",
+    "description": "Popular curated set of interview-focused LeetCode problems.",
+    "tags": [
+      "interviews",
+      "leetcode",
+      "algorithms",
+      "practice"
+    ],
+    "url": "https://leetcode.com/discuss/post/460599/blind-75-leetcode-questions-by-krishnade-9xev/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 62,
+    "featured": false
+  },
+  {
+    "id": "learning-hello-interview",
+    "name": "Hello Interview",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Interview Prep and Practice",
+    "resourceType": "Tutorial",
+    "description": "Video content focused on technical interviews and system design preparation.",
+    "tags": [
+      "interviews",
+      "system-design",
+      "youtube",
+      "learning"
+    ],
+    "url": "https://www.youtube.com/@hello_interview",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 63,
+    "featured": false
+  },
+  {
+    "id": "learning-git-mastery",
+    "name": "Git Mastery",
+    "category": "Learning",
+    "categorySlug": "learning",
+    "section": "Interview Prep and Practice",
+    "resourceType": "Tutorial",
+    "description": "Interactive Git learning resource with progressive difficulty levels and workflow exercises.",
+    "tags": [
+      "git",
+      "version-control",
+      "practice",
+      "learning"
+    ],
+    "url": "https://gitmastery.me/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "order": 64,
+    "featured": false
+  },
+  {
+    "id": "media-canva",
+    "name": "Canva",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Visual Creation",
+    "resourceType": "Tool",
+    "description": "Widely used design tool for social graphics, presentations, and lightweight visual work.",
+    "tags": [
+      "design",
+      "graphics",
+      "presentations",
+      "content"
+    ],
+    "url": "https://www.canva.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 65,
+    "featured": true
+  },
+  {
+    "id": "media-clickasnap",
+    "name": "ClickASnap",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Visual Creation",
+    "resourceType": "Documentation",
+    "description": "Photo-sharing platform useful for browsing visual work and inspiration.",
+    "tags": [
+      "photography",
+      "inspiration",
+      "portfolio",
+      "media"
+    ],
+    "url": "https://www.clickasnap.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 66,
+    "featured": false
+  },
+  {
+    "id": "media-opusclip",
+    "name": "OpusClip",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Video Tools",
+    "resourceType": "Tool",
+    "description": "AI video tool that turns long-form videos into shorter clips and social-ready edits.",
+    "tags": [
+      "video",
+      "ai",
+      "editing",
+      "content"
+    ],
+    "url": "https://www.opus.pro/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 67,
+    "featured": false
+  },
+  {
+    "id": "media-flexclip",
+    "name": "FlexClip",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Video Tools",
+    "resourceType": "Tool",
+    "description": "Online video creation and editing platform for quick visual content production.",
+    "tags": [
+      "video",
+      "editing",
+      "content",
+      "design"
+    ],
+    "url": "https://www.flexclip.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 68,
+    "featured": false
+  },
+  {
+    "id": "media-kapwing",
+    "name": "Kapwing",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Video Tools",
+    "resourceType": "Tool",
+    "description": "Collaborative browser-based tool for video editing, subtitles, and repurposing content.",
+    "tags": [
+      "video",
+      "editing",
+      "captions",
+      "content"
+    ],
+    "url": "https://www.kapwing.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 69,
+    "featured": false
+  },
+  {
+    "id": "media-scenex-by-jina-ai",
+    "name": "Scenex by Jina AI",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Video Tools",
+    "resourceType": "Tool",
+    "description": "AI tool for understanding, indexing, and navigating scenes from video content.",
+    "tags": [
+      "ai",
+      "video",
+      "scenes",
+      "analysis"
+    ],
+    "url": "https://scenex.jina.ai/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 70,
+    "featured": false
+  },
+  {
+    "id": "media-nero-ai-photo-tagger-organizer",
+    "name": "Nero AI Photo Tagger Organizer",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Image Utilities",
+    "resourceType": "Tool",
+    "description": "AI photo organizer for tagging and sorting image libraries.",
+    "tags": [
+      "ai",
+      "photos",
+      "tagging",
+      "organization"
+    ],
+    "url": "https://ai.nero.com/photo-tagger-organizer",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 71,
+    "featured": false
+  },
+  {
+    "id": "media-freeconvert-image-converter",
+    "name": "FreeConvert Image Converter",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Image Utilities",
+    "resourceType": "Tool",
+    "description": "Quick browser-based image conversion tool for common formats.",
+    "tags": [
+      "images",
+      "conversion",
+      "editing",
+      "utility"
+    ],
+    "url": "https://www.freeconvert.com/image-converter",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 72,
+    "featured": false
+  },
+  {
+    "id": "media-lunapic-editor",
+    "name": "LunaPic Editor",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Image Utilities",
+    "resourceType": "Tool",
+    "description": "Lightweight online image editor with filters, animations, and quick adjustments.",
+    "tags": [
+      "images",
+      "editor",
+      "graphics",
+      "utility"
+    ],
+    "url": "https://www5.lunapic.com/editor/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 73,
+    "featured": false
+  },
+  {
+    "id": "media-jimpl",
+    "name": "Jimpl",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Image Utilities",
+    "resourceType": "Tool",
+    "description": "Browser-based image resizing, cropping, and optimization utility.",
+    "tags": [
+      "images",
+      "editor",
+      "crop",
+      "utility"
+    ],
+    "url": "https://jimpl.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 74,
+    "featured": false
+  },
+  {
+    "id": "media-11zon-image-compressor",
+    "name": "11zon Image Compressor",
+    "category": "Media",
+    "categorySlug": "media",
+    "section": "Image Utilities",
+    "resourceType": "Tool",
+    "description": "Compresses image files in the browser for smaller uploads and faster pages.",
+    "tags": [
+      "images",
+      "compression",
+      "optimization",
+      "utility"
+    ],
+    "url": "https://imagecompressor.11zon.com/en/image-compressor/compress-image-without-losing-quality",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "order": 75,
+    "featured": false
+  },
+  {
+    "id": "productivity-getting-things-done",
+    "name": "Getting Things Done",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Workflow",
+    "resourceType": "Documentation",
+    "description": "Framework for capturing tasks and reducing mental overhead.",
+    "tags": [
+      "productivity",
+      "workflow",
+      "organization"
+    ],
+    "url": "https://gettingthingsdone.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 76,
+    "featured": true
+  },
+  {
+    "id": "productivity-pomofocus",
+    "name": "Pomofocus",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Workflow",
+    "resourceType": "Tool",
+    "description": "Lightweight Pomodoro timer for structured focus sessions.",
+    "tags": [
+      "productivity",
+      "focus",
+      "time-management"
+    ],
+    "url": "https://pomofocus.io",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 77,
+    "featured": false
+  },
+  {
+    "id": "productivity-obsidian",
+    "name": "Obsidian",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Knowledge Management",
+    "resourceType": "Tool",
+    "description": "Local-first note-taking tool useful for linked thinking and research.",
+    "tags": [
+      "notes",
+      "knowledge-base",
+      "productivity"
+    ],
+    "url": "https://obsidian.md",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 78,
+    "featured": false
+  },
+  {
+    "id": "productivity-logseq",
+    "name": "Logseq",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Knowledge Management",
+    "resourceType": "Tool",
+    "description": "Outliner-based knowledge management for structured daily work.",
+    "tags": [
+      "notes",
+      "pkm",
+      "productivity"
+    ],
+    "url": "https://logseq.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 79,
+    "featured": false
+  },
+  {
+    "id": "productivity-chatgpt",
+    "name": "ChatGPT",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Content and Workflow Utilities",
+    "resourceType": "Tool",
+    "description": "General-purpose AI assistant for ideation, writing, research, and day-to-day workflow support.",
+    "tags": [
+      "ai",
+      "assistant",
+      "writing",
+      "research"
+    ],
+    "url": "https://chatgpt.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 80,
+    "featured": false
+  },
+  {
+    "id": "productivity-ilovepdf",
+    "name": "iLovePDF",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Content and Workflow Utilities",
+    "resourceType": "Tool",
+    "description": "Browser toolkit for merging, compressing, converting, and editing PDF files.",
+    "tags": [
+      "pdf",
+      "documents",
+      "utility",
+      "workflow"
+    ],
+    "url": "https://www.ilovepdf.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 81,
+    "featured": false
+  },
+  {
+    "id": "productivity-inflact",
+    "name": "Inflact",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Content and Workflow Utilities",
+    "resourceType": "Tool",
+    "description": "Social media toolkit for planning, automation, and content workflow support.",
+    "tags": [
+      "social-media",
+      "marketing",
+      "automation",
+      "workflow"
+    ],
+    "url": "https://inflact.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 82,
+    "featured": false
+  },
+  {
+    "id": "productivity-picsart-ai-writer",
+    "name": "Picsart AI Writer",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Content and Workflow Utilities",
+    "resourceType": "Tool",
+    "description": "AI writing tool for generating and refining text content for drafts, posts, and lightweight content tasks.",
+    "tags": [
+      "ai",
+      "writing",
+      "content",
+      "productivity"
+    ],
+    "url": "https://tools.picsart.com/text/ai-writer/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 83,
+    "featured": false
+  },
+  {
+    "id": "productivity-tmux",
+    "name": "tmux",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Developer Efficiency",
+    "resourceType": "Tool",
+    "description": "Terminal multiplexer for durable multi-session command-line workflows.",
+    "tags": [
+      "terminal",
+      "workflow",
+      "productivity"
+    ],
+    "url": "https://github.com/tmux/tmux/wiki",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 84,
+    "featured": false
+  },
+  {
+    "id": "productivity-alfred",
+    "name": "Alfred",
+    "category": "Productivity",
+    "categorySlug": "productivity",
+    "section": "Developer Efficiency",
+    "resourceType": "Tool",
+    "description": "Fast launcher and automation tool for macOS workflows.",
+    "tags": [
+      "macos",
+      "launcher",
+      "automation"
+    ],
+    "url": "https://www.alfredapp.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "order": 85,
+    "featured": false
+  },
+  {
+    "id": "salesforce-salesforce-developer-documentation",
+    "name": "Salesforce Developer Documentation",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Documentation",
+    "resourceType": "Documentation",
+    "description": "Primary reference for Salesforce platform features, APIs, and guides.",
+    "tags": [
+      "salesforce",
+      "docs",
+      "platform"
+    ],
+    "url": "https://developer.salesforce.com/docs",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 86,
+    "featured": true
+  },
+  {
+    "id": "salesforce-apex-developer-guide",
+    "name": "Apex Developer Guide",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Documentation",
+    "resourceType": "Documentation",
+    "description": "Core documentation for Apex language features and platform behavior.",
+    "tags": [
+      "salesforce",
+      "apex",
+      "backend"
+    ],
+    "url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 87,
+    "featured": false
+  },
+  {
+    "id": "salesforce-workbench",
+    "name": "Workbench",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Useful for SOQL queries, metadata inspection, and manual API testing.",
+    "tags": [
+      "salesforce",
+      "admin",
+      "api"
+    ],
+    "url": "https://workbench.developerforce.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 88,
+    "featured": false
+  },
+  {
+    "id": "salesforce-salesforce-inspector-reloaded",
+    "name": "Salesforce Inspector Reloaded",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Browser extension for inspecting data, metadata, and quick admin tasks.",
+    "tags": [
+      "salesforce",
+      "browser",
+      "productivity"
+    ],
+    "url": "https://chromewebstore.google.com/detail/salesforce-inspector-relo/inhfocnfiinnjgplpfgpelhlciedaonc",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 89,
+    "featured": false
+  },
+  {
+    "id": "salesforce-salesforce-icons",
+    "name": "Salesforce Icons",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Handy icon reference for Salesforce-themed diagrams, decks, and visual documentation.",
+    "tags": [
+      "salesforce",
+      "icons",
+      "design",
+      "assets"
+    ],
+    "url": "https://www.salesforceicons.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 90,
+    "featured": false
+  },
+  {
+    "id": "salesforce-apexsandbox-io",
+    "name": "ApexSandbox.io",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Practice platform with Apex problems for building hands-on Salesforce coding skill.",
+    "tags": [
+      "salesforce",
+      "apex",
+      "practice",
+      "coding"
+    ],
+    "url": "https://www.apexsandbox.io/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 91,
+    "featured": false
+  },
+  {
+    "id": "salesforce-trailhead",
+    "name": "Trailhead",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Learning",
+    "resourceType": "Tutorial",
+    "description": "Official hands-on learning platform for Salesforce products and development.",
+    "tags": [
+      "salesforce",
+      "learning",
+      "training"
+    ],
+    "url": "https://trailhead.salesforce.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 92,
+    "featured": false
+  },
+  {
+    "id": "salesforce-apex-hours",
+    "name": "Apex Hours",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Learning",
+    "resourceType": "Tutorial",
+    "description": "Community-driven tutorials and sessions on Salesforce development topics.",
+    "tags": [
+      "salesforce",
+      "apex",
+      "learning"
+    ],
+    "url": "https://www.apexhours.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 93,
+    "featured": false
+  },
+  {
+    "id": "salesforce-trailhead-leaderboard",
+    "name": "Trailhead Leaderboard",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Learning",
+    "resourceType": "Tool",
+    "description": "Community project related to Trailhead leaderboard tracking and exploration.",
+    "tags": [
+      "salesforce",
+      "trailhead",
+      "leaderboard",
+      "github"
+    ],
+    "url": "https://github.com/meruff/trailhead-leaderboard",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 94,
+    "featured": false
+  },
+  {
+    "id": "salesforce-salesforce-components-names-for-ant-tool",
+    "name": "Salesforce Components Names for ANT Tool",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Learning",
+    "resourceType": "Documentation",
+    "description": "Handy reference for Salesforce component names used with ANT and metadata workflows.",
+    "tags": [
+      "salesforce",
+      "ant",
+      "metadata",
+      "deployment"
+    ],
+    "url": "https://www.infallibletechie.com/2014/07/salesforce-components-names-for-ant-tool.html",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 95,
+    "featured": false
+  },
+  {
+    "id": "salesforce-salesforce-design-patterns",
+    "name": "Salesforce Design Patterns",
+    "category": "Salesforce",
+    "categorySlug": "salesforce",
+    "section": "Learning",
+    "resourceType": "Documentation",
+    "description": "GitHub resource covering design patterns and architecture approaches in Salesforce development.",
+    "tags": [
+      "salesforce",
+      "design-patterns",
+      "apex",
+      "architecture"
+    ],
+    "url": "https://github.com/Coding-With-The-Force/Salesforce-Design-Patterns",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "order": 96,
+    "featured": false
+  },
+  {
+    "id": "security-owasp-top-10",
+    "name": "OWASP Top 10",
+    "category": "Security",
+    "categorySlug": "security",
+    "section": "Core References",
+    "resourceType": "Documentation",
+    "description": "Foundational list of common web application security risks.",
+    "tags": [
+      "security",
+      "web",
+      "owasp"
+    ],
+    "url": "https://owasp.org/www-project-top-ten/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "order": 97,
+    "featured": true
+  },
+  {
+    "id": "security-owasp-cheat-sheet-series",
+    "name": "OWASP Cheat Sheet Series",
+    "category": "Security",
+    "categorySlug": "security",
+    "section": "Core References",
+    "resourceType": "Documentation",
+    "description": "Practical implementation guidance for secure development.",
+    "tags": [
+      "security",
+      "reference",
+      "best-practices"
+    ],
+    "url": "https://cheatsheetseries.owasp.org",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "order": 98,
+    "featured": false
+  },
+  {
+    "id": "security-snyk",
+    "name": "Snyk",
+    "category": "Security",
+    "categorySlug": "security",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Helps identify dependency vulnerabilities and remediation options.",
+    "tags": [
+      "security",
+      "dependencies",
+      "scanning"
+    ],
+    "url": "https://snyk.io",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "order": 99,
+    "featured": false
+  },
+  {
+    "id": "security-mozilla-observatory",
+    "name": "Mozilla Observatory",
+    "category": "Security",
+    "categorySlug": "security",
+    "section": "Tools",
+    "resourceType": "Tool",
+    "description": "Checks websites for security headers and related hardening issues.",
+    "tags": [
+      "security",
+      "headers",
+      "web"
+    ],
+    "url": "https://observatory.mozilla.org",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "order": 100,
+    "featured": false
+  },
+  {
+    "id": "security-portswigger-web-security-academy",
+    "name": "PortSwigger Web Security Academy",
+    "category": "Security",
+    "categorySlug": "security",
+    "section": "Learning",
+    "resourceType": "Tutorial",
+    "description": "Hands-on training for web vulnerabilities, exploitation, and defense.",
+    "tags": [
+      "security",
+      "learning",
+      "web"
+    ],
+    "url": "https://portswigger.net/web-security",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "order": 101,
+    "featured": false
+  },
+  {
+    "id": "security-nist-secure-software-development-framework",
+    "name": "NIST Secure Software Development Framework",
+    "category": "Security",
+    "categorySlug": "security",
+    "section": "Learning",
+    "resourceType": "Documentation",
+    "description": "Structured guidance for embedding security practices into software delivery.",
+    "tags": [
+      "security",
+      "sdlc",
+      "governance"
+    ],
+    "url": "https://csrc.nist.gov/Projects/ssdf",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "order": 102,
+    "featured": false
+  },
+  {
+    "id": "system-design-system-design-primer",
+    "name": "System Design Primer",
+    "category": "System Design",
+    "categorySlug": "system-design",
+    "section": "Fundamentals",
+    "resourceType": "Tutorial",
+    "description": "Popular repository covering scalable architecture concepts and interview-style examples.",
+    "tags": [
+      "system-design",
+      "architecture",
+      "learning"
+    ],
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "order": 103,
+    "featured": true
+  },
+  {
+    "id": "system-design-google-sre-book",
+    "name": "Google SRE Book",
+    "category": "System Design",
+    "categorySlug": "system-design",
+    "section": "Fundamentals",
+    "resourceType": "Documentation",
+    "description": "Strong reference for reliability engineering and operational design.",
+    "tags": [
+      "reliability",
+      "sre",
+      "architecture"
+    ],
+    "url": "https://sre.google/books/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "order": 104,
+    "featured": false
+  },
+  {
+    "id": "system-design-microsoft-azure-architecture-center",
+    "name": "Microsoft Azure Architecture Center",
+    "category": "System Design",
+    "categorySlug": "system-design",
+    "section": "Architecture References",
+    "resourceType": "Documentation",
+    "description": "Architecture patterns, diagrams, and decision guidance for distributed systems.",
+    "tags": [
+      "cloud",
+      "architecture",
+      "patterns"
+    ],
+    "url": "https://learn.microsoft.com/azure/architecture/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "order": 105,
+    "featured": false
+  },
+  {
+    "id": "system-design-martin-fowler-architecture-guides",
+    "name": "Martin Fowler Architecture Guides",
+    "category": "System Design",
+    "categorySlug": "system-design",
+    "section": "Architecture References",
+    "resourceType": "Documentation",
+    "description": "Essays and patterns covering tradeoffs in software architecture.",
+    "tags": [
+      "architecture",
+      "patterns",
+      "design"
+    ],
+    "url": "https://martinfowler.com/architecture/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "order": 106,
+    "featured": false
+  },
+  {
+    "id": "system-design-designing-data-intensive-applications-notes",
+    "name": "Designing Data-Intensive Applications Notes",
+    "category": "System Design",
+    "categorySlug": "system-design",
+    "section": "Distributed Systems",
+    "resourceType": "Documentation",
+    "description": "Companion site for a widely referenced book on modern data systems.",
+    "tags": [
+      "distributed-systems",
+      "data",
+      "architecture"
+    ],
+    "url": "https://dataintensive.net",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "order": 107,
+    "featured": false
+  },
+  {
+    "id": "system-design-the-twelve-factor-app",
+    "name": "The Twelve-Factor App",
+    "category": "System Design",
+    "categorySlug": "system-design",
+    "section": "Distributed Systems",
+    "resourceType": "Documentation",
+    "description": "Principles for building maintainable and deployable services.",
+    "tags": [
+      "architecture",
+      "cloud",
+      "deployment"
+    ],
+    "url": "https://12factor.net",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "order": 108,
+    "featured": false
+  },
+  {
+    "id": "testing-testing-library",
+    "name": "Testing Library",
+    "category": "Testing",
+    "categorySlug": "testing",
+    "section": "Fundamentals",
+    "resourceType": "Library",
+    "description": "Encourages user-focused tests for UI applications.",
+    "tags": [
+      "testing",
+      "frontend",
+      "accessibility"
+    ],
+    "url": "https://testing-library.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "order": 109,
+    "featured": true
+  },
+  {
+    "id": "testing-jest",
+    "name": "Jest",
+    "category": "Testing",
+    "categorySlug": "testing",
+    "section": "Fundamentals",
+    "resourceType": "Library",
+    "description": "Widely used test runner for unit and integration testing in JavaScript.",
+    "tags": [
+      "testing",
+      "javascript",
+      "unit-tests"
+    ],
+    "url": "https://jestjs.io",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "order": 110,
+    "featured": false
+  },
+  {
+    "id": "testing-postman-learning-center",
+    "name": "Postman Learning Center",
+    "category": "Testing",
+    "categorySlug": "testing",
+    "section": "API and Integration Testing",
+    "resourceType": "Documentation",
+    "description": "Guides for API testing, scripting, mocks, and automation.",
+    "tags": [
+      "testing",
+      "api",
+      "postman"
+    ],
+    "url": "https://learning.postman.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "order": 111,
+    "featured": false
+  },
+  {
+    "id": "testing-playwright",
+    "name": "Playwright",
+    "category": "Testing",
+    "categorySlug": "testing",
+    "section": "API and Integration Testing",
+    "resourceType": "Library",
+    "description": "End-to-end testing framework with strong browser automation support.",
+    "tags": [
+      "testing",
+      "e2e",
+      "browser"
+    ],
+    "url": "https://playwright.dev",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "order": 112,
+    "featured": false
+  },
+  {
+    "id": "testing-martin-fowler-on-test-pyramid",
+    "name": "Martin Fowler on Test Pyramid",
+    "category": "Testing",
+    "categorySlug": "testing",
+    "section": "Quality Practices",
+    "resourceType": "Documentation",
+    "description": "Good reference for balancing unit, integration, and end-to-end tests.",
+    "tags": [
+      "testing",
+      "strategy",
+      "architecture"
+    ],
+    "url": "https://martinfowler.com/articles/practical-test-pyramid.html",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "order": 113,
+    "featured": false
+  },
+  {
+    "id": "testing-salesforce-apex-testing-best-practices",
+    "name": "Salesforce Apex Testing Best Practices",
+    "category": "Testing",
+    "categorySlug": "testing",
+    "section": "Quality Practices",
+    "resourceType": "Documentation",
+    "description": "Official recommendations for writing reliable Salesforce tests.",
+    "tags": [
+      "salesforce",
+      "testing",
+      "apex"
+    ],
+    "url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_best_practices.htm",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "order": 114,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-awwwards",
+    "name": "Awwwards",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Inspiration",
+    "resourceType": "Documentation",
+    "description": "Curated gallery of polished web experiences and interaction ideas.",
+    "tags": [
+      "ui",
+      "ux",
+      "inspiration"
+    ],
+    "url": "https://www.awwwards.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 115,
+    "featured": true
+  },
+  {
+    "id": "ui-ux-dribbble",
+    "name": "Dribbble",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Inspiration",
+    "resourceType": "Documentation",
+    "description": "Useful for visual exploration of interfaces, illustration, and branding.",
+    "tags": [
+      "ui",
+      "design",
+      "inspiration"
+    ],
+    "url": "https://dribbble.com",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 116,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-material-design",
+    "name": "Material Design",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Systems and Patterns",
+    "resourceType": "Documentation",
+    "description": "Comprehensive design system with guidance on components and usability.",
+    "tags": [
+      "ui",
+      "design-system",
+      "components"
+    ],
+    "url": "https://m3.material.io",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 117,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-human-interface-guidelines",
+    "name": "Human Interface Guidelines",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Systems and Patterns",
+    "resourceType": "Documentation",
+    "description": "Strong reference for interaction, clarity, and visual hierarchy principles.",
+    "tags": [
+      "ux",
+      "ios",
+      "design-system"
+    ],
+    "url": "https://developer.apple.com/design/human-interface-guidelines/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 118,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-stitch-with-google",
+    "name": "Stitch with Google",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Systems and Patterns",
+    "resourceType": "Tool",
+    "description": "Google design tool for generating and exploring interface concepts.",
+    "tags": [
+      "ui",
+      "ai",
+      "prototyping",
+      "design"
+    ],
+    "url": "https://stitch.withgoogle.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 119,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-visily",
+    "name": "Visily",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Systems and Patterns",
+    "resourceType": "Tool",
+    "description": "AI-assisted wireframing and mockup tool designed for fast product ideation.",
+    "tags": [
+      "ui",
+      "wireframes",
+      "prototyping",
+      "ai"
+    ],
+    "url": "https://www.visily.ai/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 120,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-icons8",
+    "name": "Icons8",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Assets and Icon Libraries",
+    "resourceType": "Tool",
+    "description": "Large icon library and design asset platform for interface work.",
+    "tags": [
+      "icons",
+      "assets",
+      "ui",
+      "design"
+    ],
+    "url": "https://icons8.com/icons/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 121,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-svg-repo",
+    "name": "SVG Repo",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Assets and Icon Libraries",
+    "resourceType": "Tool",
+    "description": "Searchable repository of free SVG icons and illustrations.",
+    "tags": [
+      "svg",
+      "icons",
+      "assets",
+      "ui"
+    ],
+    "url": "https://www.svgrepo.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 122,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-freepik-icons",
+    "name": "Freepik Icons",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Assets and Icon Libraries",
+    "resourceType": "Tool",
+    "description": "Icon discovery resource within the broader Freepik design ecosystem.",
+    "tags": [
+      "icons",
+      "assets",
+      "design",
+      "graphics"
+    ],
+    "url": "https://www.freepik.com/icons",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 123,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-flaticon",
+    "name": "Flaticon",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Assets and Icon Libraries",
+    "resourceType": "Tool",
+    "description": "Large icon catalog for product design, presentations, and visual assets.",
+    "tags": [
+      "icons",
+      "ui",
+      "assets",
+      "graphics"
+    ],
+    "url": "https://www.flaticon.com/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 124,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-svg-path-editor",
+    "name": "SVG Path Editor",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Assets and Icon Libraries",
+    "resourceType": "Tool",
+    "description": "Interactive editor for inspecting and fine-tuning SVG path data.",
+    "tags": [
+      "svg",
+      "paths",
+      "editing",
+      "ui"
+    ],
+    "url": "https://yqnn.github.io/svg-path-editor/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 125,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-web-content-accessibility-guidelines",
+    "name": "Web Content Accessibility Guidelines",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Accessibility",
+    "resourceType": "Documentation",
+    "description": "Core standard for building accessible digital interfaces.",
+    "tags": [
+      "accessibility",
+      "ui",
+      "standards"
+    ],
+    "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 126,
+    "featured": false
+  },
+  {
+    "id": "ui-ux-stark",
+    "name": "Stark",
+    "category": "UI / UX",
+    "categorySlug": "ui-ux",
+    "section": "Accessibility",
+    "resourceType": "Tool",
+    "description": "Accessibility tooling for contrast, compliance, and inclusive design review.",
+    "tags": [
+      "accessibility",
+      "ux",
+      "design"
+    ],
+    "url": "https://www.getstark.co",
+    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "order": 127,
+    "featured": false
+  }
+]
