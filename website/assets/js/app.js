@@ -70,14 +70,15 @@ const elements = {
   resourceCardTemplate: document.querySelector("#resource-card-template"),
 };
 
+renderStaticIcons();
+bindEvents();
+
 init().catch((error) => {
   console.error(error);
   elements.resultsSummary.textContent = "Unable to load resources right now.";
 });
 
 async function init() {
-  renderStaticIcons();
-
   const [resources, categories] = await Promise.all([
     fetchJson("./data/resources.json"),
     fetchJson("./data/categories.json"),
@@ -88,7 +89,6 @@ async function init() {
   state.quickSearches = getPopularTags(resources).slice(0, 5);
 
   hydrateStats();
-  bindEvents();
   renderQuickSearches();
   renderCategoryCards();
   renderFilterChips();
@@ -136,6 +136,10 @@ function bindEvents() {
       closeMobileNav();
     }
   });
+
+  window.addEventListener("resize", debounce(() => {
+    renderSpotlights();
+  }, 120));
 }
 
 function hydrateStats() {
@@ -223,8 +227,9 @@ function renderFilterChips() {
 }
 
 function renderSpotlights() {
-  const featured = state.resources.filter((resource) => resource.featured).slice(0, 6);
-  const recent = [...state.resources].sort((left, right) => right.order - left.order).slice(0, 6);
+  const spotlightCount = window.matchMedia("(max-width: 640px)").matches ? 2 : 4;
+  const featured = state.resources.filter((resource) => resource.featured).slice(0, spotlightCount);
+  const recent = [...state.resources].sort((left, right) => right.order - left.order).slice(0, spotlightCount);
 
   renderResourceList(elements.featuredGrid, featured);
   renderResourceList(elements.recentGrid, recent);
@@ -262,12 +267,15 @@ function renderResourceList(container, resources) {
   resources.forEach((resource) => {
     const fragment = elements.resourceCardTemplate.content.cloneNode(true);
     const card = fragment.querySelector(".resource-card");
+    const logo = fragment.querySelector(".resource-logo");
 
     fragment.querySelector(".resource-category-icon").innerHTML = getCategoryIcon(resource.categorySlug);
     fragment.querySelector(".resource-category").textContent = resource.category;
     fragment.querySelector(".resource-name").textContent = resource.name;
     fragment.querySelector(".resource-type").textContent = resource.resourceType;
     fragment.querySelector(".resource-description").textContent = resource.description;
+
+    bindFavicon(logo, resource);
 
     const visitLink = fragment.querySelector(".visit-link");
     visitLink.href = resource.url;
@@ -276,7 +284,7 @@ function renderResourceList(container, resources) {
     sourceLink.href = resource.sourcePath;
 
     const tagList = fragment.querySelector(".tag-list");
-    resource.tags.slice(0, 4).forEach((tag) => {
+    resource.tags.slice(0, 3).forEach((tag) => {
       const tagElement = document.createElement("span");
       tagElement.className = "tag";
       tagElement.textContent = `#${tag}`;
@@ -317,6 +325,23 @@ function renderStaticIcons() {
   });
 }
 
+function bindFavicon(image, resource) {
+  const domain = getDomain(resource.url);
+  if (!domain) {
+    return;
+  }
+
+  image.src = `https://www.google.com/s2/favicons?sz=64&domain=${domain}`;
+  image.alt = `${resource.name} logo`;
+  image.addEventListener(
+    "load",
+    () => {
+      image.classList.add("is-ready");
+    },
+    { once: true }
+  );
+}
+
 function getCategoryIcon(slug) {
   return iconMap[categoryIcons[slug] ?? "grid"];
 }
@@ -340,6 +365,25 @@ function formatLabel(value) {
     .split(/[-\s]+/)
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
+}
+
+function getDomain(value) {
+  try {
+    return new URL(value).hostname;
+  } catch {
+    return "";
+  }
+}
+
+function debounce(callback, delay) {
+  let timerId;
+
+  return (...args) => {
+    window.clearTimeout(timerId);
+    timerId = window.setTimeout(() => {
+      callback(...args);
+    }, delay);
+  };
 }
 
 function svg(path) {
