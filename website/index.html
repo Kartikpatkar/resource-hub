@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;700&display=swap"
       rel="stylesheet"
     >
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -20,29 +20,45 @@
     <div class="site-shell">
       <header class="site-header">
         <a class="brand" href="#top" aria-label="Resource Hub home">
-          <span class="brand-mark">RH</span>
+          <span class="brand-mark">R</span>
           <span class="brand-copy">
             <strong>Resource Hub</strong>
-            <span>Useful websites, organized for fast discovery</span>
+            <span>Find useful websites faster</span>
           </span>
         </a>
 
         <nav class="site-nav" aria-label="Primary navigation">
           <a href="#categories">Categories</a>
-          <a href="#directory">Search</a>
+          <a href="#directory">Browse</a>
           <a href="#about">About</a>
           <a href="https://github.com/Kartikpatkar/dev-resource-hub">GitHub</a>
         </nav>
+
+        <button class="menu-button" id="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+          <span class="icon" data-icon="menu"></span>
+        </button>
       </header>
+
+      <div class="mobile-overlay hidden" id="mobile-overlay"></div>
+      <aside class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+        <button class="mobile-nav-close" id="mobile-nav-close" type="button" aria-label="Close menu">
+          <span class="icon" data-icon="close"></span>
+        </button>
+        <a class="mobile-link" href="#categories">Categories</a>
+        <a class="mobile-link" href="#directory">Browse</a>
+        <a class="mobile-link" href="#about">About</a>
+        <a class="mobile-link" href="https://github.com/Kartikpatkar/dev-resource-hub" target="_blank" rel="noreferrer noopener">GitHub</a>
+      </aside>
 
       <main id="top">
         <section class="hero">
           <div class="hero-copy">
-            <p class="eyebrow">Modern Resource Directory</p>
-            <h1>Find useful websites in seconds, not tabs later.</h1>
+            <p class="eyebrow">Modern resource directory</p>
+            <h1>Discover the best online resources in one clean place.</h1>
             <p class="hero-text">
-              Browse a growing resource library across learning, tools, finance, media, APIs,
-              productivity, and more from one clean, searchable directory.
+              Browse a growing collection of useful tools, guides, learning platforms, media
+              resources, productivity picks, and everyday websites through one fast, searchable,
+              mobile-friendly directory.
             </p>
             <div class="hero-stats" id="hero-stats" aria-label="Site statistics">
               <div>
@@ -64,6 +80,7 @@
             <form class="search-panel" role="search">
               <label class="search-label" for="search-input">Search resources</label>
               <div class="search-input-wrap">
+                <span class="icon search-icon" data-icon="search"></span>
                 <input
                   id="search-input"
                   type="search"
@@ -73,8 +90,9 @@
                 <button id="clear-search" type="button" aria-label="Clear search">Clear</button>
               </div>
               <p class="search-help">
-                Instant filtering across names, descriptions, categories, and tags.
+                Instant filtering across names, descriptions, categories, sections, and tags.
               </p>
+              <div class="quick-searches" id="quick-searches" aria-label="Quick searches"></div>
             </form>
           </div>
         </section>
@@ -83,7 +101,7 @@
           <div class="section-heading">
             <div>
               <p class="eyebrow">Browse by category</p>
-              <h2>Jump straight into a topic</h2>
+              <h2><span class="heading-icon" data-icon="grid"></span>Jump straight into a topic</h2>
             </div>
             <p class="section-intro">
               The directory stays broad, but the navigation stays tight. Pick a category or use
@@ -98,7 +116,7 @@
             <div class="section-heading compact">
               <div>
                 <p class="eyebrow">Featured picks</p>
-                <h2>Start with the strongest signals</h2>
+                <h2><span class="heading-icon" data-icon="sparkles"></span>Start with the strongest signals</h2>
               </div>
             </div>
             <div class="resource-grid compact" id="featured-grid"></div>
@@ -108,7 +126,7 @@
             <div class="section-heading compact">
               <div>
                 <p class="eyebrow">Recently added</p>
-                <h2>Newest additions from the repo</h2>
+                <h2><span class="heading-icon" data-icon="clock"></span>Newest additions from the repo</h2>
               </div>
             </div>
             <div class="resource-grid compact" id="recent-grid"></div>
@@ -119,7 +137,7 @@
           <div class="section-heading">
             <div>
               <p class="eyebrow">Searchable directory</p>
-              <h2>Explore the full collection</h2>
+              <h2><span class="heading-icon" data-icon="compass"></span>Explore the full collection</h2>
             </div>
             <p class="section-intro" id="results-summary">
               Loading resources...
@@ -132,8 +150,10 @@
 
           <div class="resource-grid" id="resource-grid" aria-live="polite"></div>
           <div class="empty-state hidden" id="empty-state">
+            <span class="empty-icon icon" data-icon="search"></span>
             <h3>No matches found</h3>
             <p>Try a simpler keyword or switch back to all categories.</p>
+            <button class="reset-button" id="reset-filters" type="button">Clear all filters</button>
           </div>
         </section>
 
@@ -141,7 +161,7 @@
           <div class="section-heading">
             <div>
               <p class="eyebrow">About the project</p>
-              <h2>Same repo, two ways to use it</h2>
+              <h2><span class="heading-icon" data-icon="layers"></span>Same repo, two ways to use it</h2>
             </div>
           </div>
           <div class="about-grid">
@@ -181,6 +201,7 @@
 
     <template id="category-card-template">
       <button class="category-card" type="button">
+        <span class="category-icon"></span>
         <span class="category-name"></span>
         <span class="category-meta"></span>
       </button>
@@ -190,12 +211,19 @@
       <button class="filter-chip" type="button"></button>
     </template>
 
+    <template id="quick-search-template">
+      <button class="quick-search" type="button"></button>
+    </template>
+
     <template id="resource-card-template">
       <article class="resource-card">
         <div class="resource-card-top">
-          <div>
+          <div class="resource-identity">
+            <span class="resource-category-icon"></span>
+            <div>
             <p class="resource-category"></p>
             <h3 class="resource-name"></h3>
+            </div>
           </div>
           <span class="resource-type"></span>
         </div>
