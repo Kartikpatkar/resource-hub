@@ -1,6 +1,6 @@
 [Back to README](../README.md)
 
-# Dev Tools Resources
+# Tools Resources
 
 ## Essential Tools
 

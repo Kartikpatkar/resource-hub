@@ -1,8 +1,8 @@
 # Dev Resource Hub
 
-Dev Resource Hub is a Markdown-first knowledge base for storing and organizing high-value developer resources in a way that stays searchable, maintainable, and GitHub-friendly over time.
+Dev Resource Hub is a Markdown-first resource hub for storing and organizing high-value links, references, tools, guides, and useful resources from any domain in a way that stays searchable, maintainable, and GitHub-friendly over time.
 
-It is designed as a personal developer knowledge system, a curated reference library, and a portfolio-quality repository that can scale from a handful of links to thousands of entries without needing a database or backend.
+It is designed as a centralized resource hub, a categorized link collection, a personal knowledge system, a daily utility reference, and a long-term searchable archive that can scale from a handful of links to thousands of entries without needing a database or backend.
 
 ## Categories
 
@@ -10,7 +10,7 @@ It is designed as a personal developer knowledge system, a curated reference lib
 - [Chrome Extensions](categories/chrome-extensions.md)
 - [JavaScript](categories/javascript.md)
 - [APIs](categories/apis.md)
-- [Dev Tools](categories/dev-tools.md)
+- [Tools](categories/dev-tools.md)
 - [Debugging](categories/debugging.md)
 - [Testing](categories/testing.md)
 - [UI / UX](categories/ui-ux.md)
@@ -39,11 +39,13 @@ dev-resource-hub/
 		`-- learning.md
 ```
 
+This structure is intentionally simple and flexible. New domains can be supported by adding another Markdown file under `categories/` and linking it from this README without restructuring the repository.
+
 ## How to Use
 
 ### Browse
 
-Open the category that best matches the resource you need. Each category file uses consistent headings and a standard entry structure so scanning stays fast even as the repository grows.
+Open the category that best matches the resource you need. Categories can be technical, practical, educational, topical, or personal. Each category file uses consistent headings and a standard entry structure so scanning stays fast even as the repository grows.
 
 ### Search
 
@@ -88,6 +90,7 @@ Standard resource entry format:
 3. Use the standard entry format exactly.
 4. Write a short note only if it adds useful context.
 5. Check whether the resource already exists before adding it.
+6. If no existing category fits, create a new file under `categories/` and add it to the README categories list.
 
 ### Formatting Rules
 
@@ -106,6 +109,7 @@ Choose the category based on primary use:
 - put tools under the area where they are most useful in practice
 - use `Learning` for broad educational material that spans multiple topics
 - use `Debugging` or `Testing` when the main value is troubleshooting or validation
+- create a new category when the resource belongs to a distinct domain that does not fit the existing list cleanly
 
 If a resource fits multiple areas, place it in the category where it is most likely to be found again quickly.
 
