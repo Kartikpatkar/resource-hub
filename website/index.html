@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body>
-    <div class="site-shell">
-      <header class="site-header">
+    <header class="site-header">
         <a class="brand" href="#top" aria-label="Resource Hub home">
           <span class="brand-mark">R</span>
           <span class="brand-copy">
@@ -38,7 +37,7 @@
           <span class="icon" data-icon="menu"></span>
         </button>
       </header>
-
+    <div class="site-shell">
       <div class="mobile-overlay hidden" id="mobile-overlay"></div>
       <aside class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
         <button class="mobile-nav-close" id="mobile-nav-close" type="button" aria-label="Close menu">
@@ -52,32 +51,9 @@
 
       <main id="top">
         <section class="hero section-reveal">
-          <div class="hero-copy">
-            <p class="eyebrow">Modern resource directory</p>
-            <h1>Discover the best online resources in one clean place.</h1>
-            <p class="hero-text">
-              Browse a growing collection of useful tools, guides, learning platforms, media
-              resources, productivity picks, and everyday websites through one fast, searchable,
-              mobile-friendly directory.
-            </p>
-            <div class="hero-stats" id="hero-stats" aria-label="Site statistics">
-              <div>
-                <strong id="stat-resources">0</strong>
-                <span>resources</span>
-              </div>
-              <div>
-                <strong id="stat-categories">0</strong>
-                <span>categories</span>
-              </div>
-              <div>
-                <strong id="stat-tags">0</strong>
-                <span>tags</span>
-              </div>
-            </div>
-          </div>
-
           <div class="hero-panel">
             <form class="search-panel" role="search">
+              <p class="hero-inline-copy">Search useful websites, tools, and references fast.</p>
               <label class="search-label" for="search-input">Search resources</label>
               <div class="search-input-wrap">
                 <span class="icon search-icon" data-icon="search"></span>
@@ -87,17 +63,24 @@
                   placeholder="Search by name, notes, tags, or category"
                   autocomplete="off"
                 >
+                <button
+                  class="category-toggle"
+                  id="category-toggle"
+                  type="button"
+                  aria-controls="categories"
+                  aria-expanded="false"
+                >
+                  Categories
+                </button>
                 <button id="clear-search" type="button" aria-label="Clear search">Clear</button>
               </div>
-              <p class="search-help">
-                Instant filtering across names, descriptions, categories, sections, and tags.
-              </p>
+              <p class="hero-meta" id="hero-meta">Loading resource summary...</p>
               <div class="quick-searches" id="quick-searches" aria-label="Quick searches"></div>
             </form>
           </div>
         </section>
 
-        <section class="section section-reveal" id="categories">
+        <section class="section section-reveal is-collapsed" id="categories" hidden>
           <div class="section-heading">
             <div>
               <p class="eyebrow">Browse by category</p>
@@ -111,37 +94,20 @@
           <div class="category-grid" id="category-grid" aria-live="polite"></div>
         </section>
 
-        <section class="section spotlight-grid section-reveal">
-          <article class="spotlight-panel">
-            <div class="section-heading compact">
-              <div>
-                <p class="eyebrow">Featured picks</p>
-                <h2><span class="heading-icon" data-icon="sparkles"></span>Start with the strongest signals</h2>
-              </div>
-            </div>
-            <div class="resource-grid compact" id="featured-grid"></div>
-          </article>
-
-          <article class="spotlight-panel">
-            <div class="section-heading compact">
-              <div>
-                <p class="eyebrow">Recently added</p>
-                <h2><span class="heading-icon" data-icon="clock"></span>Newest additions from the repo</h2>
-              </div>
-            </div>
-            <div class="resource-grid compact" id="recent-grid"></div>
-          </article>
-        </section>
-
         <section class="section section-reveal" id="directory">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Searchable directory</p>
               <h2><span class="heading-icon" data-icon="compass"></span>Explore the full collection</h2>
             </div>
-            <p class="section-intro" id="results-summary">
-              Loading resources...
-            </p>
+            <div class="directory-meta">
+              <p class="section-intro" id="results-summary">
+                Loading resources...
+              </p>
+              <button class="results-mode-toggle" id="results-mode-toggle" type="button" aria-pressed="true">
+                Top results only
+              </button>
+            </div>
           </div>
 
           <div class="filter-toolbar">
@@ -156,48 +122,22 @@
             <button class="reset-button" id="reset-filters" type="button">Clear all filters</button>
           </div>
         </section>
-
-        <section class="section about-panel section-reveal" id="about">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">About the project</p>
-              <h2><span class="heading-icon" data-icon="layers"></span>Same repo, two ways to use it</h2>
-            </div>
-          </div>
-          <div class="about-grid">
-            <article>
-              <h3>GitHub-friendly source</h3>
-              <p>
-                The root repo stays Markdown-first so links remain easy to review, edit, and browse
-                directly on GitHub.
-              </p>
-            </article>
-            <article>
-              <h3>Website-friendly discovery</h3>
-              <p>
-                This website layer turns the same resource collection into a fast, mobile-friendly,
-                searchable directory for everyday users.
-              </p>
-            </article>
-            <article>
-              <h3>Easy to maintain</h3>
-              <p>
-                Resource data is generated from the category Markdown files, which keeps content and
-                presentation separated cleanly.
-              </p>
-            </article>
-          </div>
-        </section>
       </main>
+    </div>
 
-      <footer class="site-footer">
-        <p>Built from the Resource Hub repository.</p>
+    <footer class="site-footer" id="about">
+        <div class="footer-note">
+          <p class="footer-note-title">About Resource Hub</p>
+          <p>
+            The repository stays Markdown-first for GitHub, while this website turns the same data
+            into a faster discovery experience for everyday browsing.
+          </p>
+        </div>
         <div>
           <a href="https://github.com/Kartikpatkar/dev-resource-hub/blob/main/README.md">Open the Markdown hub</a>
           <a href="https://github.com/Kartikpatkar/dev-resource-hub">Repository</a>
         </div>
       </footer>
-    </div>
 
     <template id="category-card-template">
       <button class="category-card" type="button">
@@ -223,7 +163,7 @@
               <img class="resource-logo" alt="" loading="lazy" referrerpolicy="no-referrer">
               <span class="resource-category-icon"></span>
             </div>
-            <div>
+            <div class="resource-copy">
               <p class="resource-category"></p>
               <h3 class="resource-name"></h3>
             </div>
