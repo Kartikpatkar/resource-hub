@@ -129,3 +129,105 @@
   Category: Tutorial
   Tags: git, version-control, practice, learning
   Notes: Interactive Git learning resource with progressive difficulty levels and workflow exercises.
+
+## Skill Practice and Interactive Learning
+
+- Human Benchmark
+  Link: https://humanbenchmark.com/
+  Category: Tool
+  Tags: brain, memory, reaction, training
+  Notes: Interactive benchmark tests for memory, reaction time, typing speed, and other cognitive skills.
+
+- Little Alchemy 2
+  Link: https://littlealchemy2.com/
+  Category: Game
+  Tags: game, puzzle, learning, creativity
+  Notes: Puzzle game built around combining basic elements to discover new objects and concepts.
+
+- Murdle
+  Link: https://murdle.com/
+  Category: Game
+  Tags: puzzle, logic, deduction, game
+  Notes: Daily mystery puzzle that sharpens logic and deduction through detective-style problem solving.
+
+- TypingClub
+  Link: https://www.typingclub.com/
+  Category: Tutorial
+  Tags: typing, skills, practice, learning
+  Notes: Typing practice platform focused on improving speed and accuracy through guided lessons.
+
+- PuzzlePrime
+  Link: https://www.puzzleprime.com/
+  Category: Game
+  Tags: puzzle, logic, brain, practice
+  Notes: Online collection of logic and brain teaser puzzles for regular problem-solving practice.
+
+## Language and Communication
+
+- Language Guide
+  Link: https://www.languageguide.org/
+  Category: Tutorial
+  Tags: language, learning, vocabulary, pronunciation
+  Notes: Interactive language-learning site with visual vocabulary and audio pronunciation support.
+
+- Behind the Email
+  Link: https://behindtheemail.com/
+  Category: Tutorial
+  Tags: email, communication, writing, skills
+  Notes: Breaks down how effective professional emails are structured and written.
+
+- Loecsen
+  Link: https://www.loecsen.com/en
+  Category: Tutorial
+  Tags: language, learning, education, travel
+  Notes: Free language lessons with practical phrases and guided pronunciation practice.
+
+## Projects and Knowledge Exploration
+
+- Beginner Data Science Projects
+  Link: https://github.com/tkarim45/Beginner-Data-Science-Projects
+  Category: Tutorial
+  Tags: data-science, projects, python, learning
+  Notes: GitHub collection of beginner-friendly data science project ideas and example workflows.
+
+- MuscleWiki
+  Link: https://musclewiki.com/
+  Category: Tutorial
+  Tags: fitness, exercise, health, learning
+  Notes: Interactive exercise guide that maps workouts to muscle groups.
+
+- StudyFetch
+  Link: https://www.studyfetch.com/
+  Category: Tool
+  Tags: ai, study, education, notes
+  Notes: AI study assistant for generating notes, quizzes, and summaries from study material.
+
+- DigitalBook
+  Link: https://www.digitalbook.io/
+  Category: Tutorial
+  Tags: education, books, learning, study
+  Notes: Digital learning platform for accessing textbooks and educational materials online.
+
+- Old Maps Online
+  Link: https://www.oldmapsonline.org/
+  Category: Documentation
+  Tags: maps, history, geography, research
+  Notes: Search tool for discovering historical maps from archives and libraries around the world.
+
+- Learn Anything
+  Link: https://learn-anything.xyz/
+  Category: Tutorial
+  Tags: learning, knowledge, skills, maps
+  Notes: Visual knowledge graph for exploring topics, skills, and connected learning paths.
+
+- CK-12 India
+  Link: https://india.ck12.org/student/
+  Category: Tutorial
+  Tags: education, students, learning, lessons
+  Notes: Free lessons and interactive learning resources for school-age learners in India.
+
+- World Monitor
+  Link: https://world-monitor.com/
+  Category: Tool
+  Tags: data, world, statistics, reference
+  Notes: Live global dashboard for population, economic, and environmental statistics.
