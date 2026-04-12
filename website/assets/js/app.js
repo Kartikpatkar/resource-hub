@@ -309,12 +309,15 @@ function renderResourceList(container, resources) {
     const fragment = elements.resourceCardTemplate.content.cloneNode(true);
     const card = fragment.querySelector(".resource-card");
     const logo = fragment.querySelector(".resource-logo");
+    const description = fragment.querySelector(".resource-description");
+    const descriptionId = `resource-description-${resource.id}`;
 
     fragment.querySelector(".resource-category-icon").innerHTML = getCategoryIcon(resource.categorySlug);
     fragment.querySelector(".resource-category").textContent = resource.category;
     fragment.querySelector(".resource-name").textContent = resource.name;
     fragment.querySelector(".resource-type").textContent = resource.resourceType;
-    fragment.querySelector(".resource-description").textContent = resource.description;
+    description.id = descriptionId;
+    description.textContent = resource.description;
 
     bindFavicon(logo, resource);
 
@@ -332,8 +335,37 @@ function renderResourceList(container, resources) {
       tagList.append(tagElement);
     });
 
+    card.addEventListener("click", (event) => {
+      if (supportsHoverCards() || event.target.closest("a, button")) {
+        return;
+      }
+
+      toggleResourceCard(card, container);
+    });
+
     container.append(card);
   });
+}
+
+function toggleResourceCard(card, container) {
+  const shouldExpand = !card.classList.contains("is-expanded");
+
+  collapseResourceCards(container, shouldExpand ? card : null);
+  card.classList.toggle("is-expanded", shouldExpand);
+}
+
+function collapseResourceCards(container, exceptCard = null) {
+  container.querySelectorAll(".resource-card.is-expanded").forEach((card) => {
+    if (card === exceptCard) {
+      return;
+    }
+
+    card.classList.remove("is-expanded");
+  });
+}
+
+function supportsHoverCards() {
+  return window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 }
 
 function buildResultsCopy(total, visible) {

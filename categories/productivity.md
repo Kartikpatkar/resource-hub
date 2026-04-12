@@ -69,3 +69,79 @@
   Category: Tool
   Tags: macos, launcher, automation
   Notes: Fast launcher and automation tool for macOS workflows.
+
+## Utility and Sharing Tools
+
+- ToolFK
+  Link: https://www.toolfk.com/
+  Category: Tool
+  Tags: tools, utility, online, workflow
+  Notes: Broad collection of online converters, generators, and practical utility tools.
+
+- ToffeeShare
+  Link: https://toffeeshare.com/en/
+  Category: Tool
+  Tags: file, sharing, p2p, browser
+  Notes: Peer-to-peer browser file sharing for sending files directly without a central upload step.
+
+- LightPDF
+  Link: https://lightpdf.com/
+  Category: Tool
+  Tags: pdf, editor, documents, productivity
+  Notes: Online PDF toolkit for editing, compressing, converting, and managing PDF files.
+
+- TinyWow
+  Link: https://tinywow.com/
+  Category: Tool
+  Tags: tools, pdf, image, utility
+  Notes: Free browser-based toolkit for PDF editing, image processing, and common file tasks.
+
+## AI Workflow Tools
+
+- Google Pomelli
+  Link: https://labs.google.com/pomelli/about/
+  Category: Tool
+  Tags: ai, google, experiments, productivity
+  Notes: Google Labs experiment exploring new AI-powered interaction and workflow ideas.
+
+- AIxploria
+  Link: https://www.aixploria.com/en/
+  Category: Documentation
+  Tags: ai, directory, tools, discovery
+  Notes: Searchable directory of AI tools grouped by use case and functionality.
+
+- Oxaam
+  Link: https://www.oxaam.com/
+  Category: Tool
+  Tags: ai, automation, business, productivity
+  Notes: AI-driven platform for automation and business intelligence workflows.
+
+- Pareto AI
+  Link: https://pareto.ai/
+  Category: Tool
+  Tags: ai, analytics, business, decisions
+  Notes: AI platform for data analysis and decision support in business workflows.
+
+- Kimi Slides
+  Link: https://www.kimi.com/en/slides
+  Category: Tool
+  Tags: ai, slides, presentation, productivity
+  Notes: AI presentation tool for generating slide decks and presentation content faster.
+
+- GenSpark AI
+  Link: https://www.genspark.ai/
+  Category: Tool
+  Tags: ai, automation, productivity, content
+  Notes: AI platform for automation, content generation, and productivity-oriented tasks.
+
+- Arena AI
+  Link: https://arena.ai/
+  Category: Tool
+  Tags: ai, platform, tools, productivity
+  Notes: AI platform offering business and personal productivity tools.
+
+- Astra
+  Link: https://useastra.in/
+  Category: Tool
+  Tags: ai, assistant, productivity, workflow
+  Notes: AI assistant aimed at improving workflow execution and day-to-day productivity.
