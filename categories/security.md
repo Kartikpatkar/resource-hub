@@ -30,6 +30,12 @@
   Tags: security, headers, web
   Notes: Checks websites for security headers and related hardening issues.
 
+- Super Logout
+  Link: https://superlogout.com/
+  Category: Tool
+  Tags: security, logout, privacy, utility
+  Notes: Signs you out of many popular web services in one pass to reduce lingering sessions.
+
 ## Learning
 
 - PortSwigger Web Security Academy

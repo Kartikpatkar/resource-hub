@@ -16,6 +16,24 @@
   Tags: photography, inspiration, portfolio, media
   Notes: Photo-sharing platform useful for browsing visual work and inspiration.
 
+- Planner 5D
+  Link: https://planner5d.com/
+  Category: Tool
+  Tags: design, 3d, home, planning
+  Notes: 2D and 3D home and interior design tool for layouts, rooms, and visual planning.
+
+- Adobe Express
+  Link: https://express.adobe.com/
+  Category: Tool
+  Tags: design, graphics, adobe, content
+  Notes: Online design platform for graphics, presentations, social posts, and lightweight branded content.
+
+- DesignArena
+  Link: https://www.designarena.ai/
+  Category: Tool
+  Tags: design, ai, graphics, visuals
+  Notes: AI-powered design platform for generating creative assets and visual concepts.
+
 ## Video Tools
 
 - OpusClip
@@ -73,3 +91,17 @@
   Category: Tool
   Tags: images, compression, optimization, utility
   Notes: Compresses image files in the browser for smaller uploads and faster pages.
+
+- Photext
+  Link: https://photext.shop/
+  Category: Tool
+  Tags: image, text, editor, typography
+  Notes: Adds stylized text to photos quickly for simple visual edits and social-ready assets.
+
+## Entertainment and Fun
+
+- MyInstants
+  Link: https://www.myinstants.com/en/index/us/
+  Category: Tool
+  Tags: sounds, fun, entertainment, soundboard
+  Notes: Instant soundboard library with meme sounds, effects, and audio buttons for casual use.

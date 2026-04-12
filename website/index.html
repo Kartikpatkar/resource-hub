@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resource Hub | Discover Useful Websites Fast</title>
+    <meta
+      name="description"
+      content="Resource Hub is a fast, category-based website for discovering useful tools, references, and websites across work, learning, media, finance, and more."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="Resource Hub home">
+          <span class="brand-mark">R</span>
+          <span class="brand-copy">
+            <strong>Resource Hub</strong>
+            <span>Find useful websites faster</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#categories">Categories</a>
+          <a href="#directory">Browse</a>
+          <a href="#about">About</a>
+          <a href="https://github.com/Kartikpatkar/dev-resource-hub">GitHub</a>
+        </nav>
+
+        <button class="menu-button" id="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+          <span class="icon" data-icon="menu"></span>
+        </button>
+      </header>
+    <div class="site-shell">
+      <div class="mobile-overlay hidden" id="mobile-overlay"></div>
+      <aside class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+        <button class="mobile-nav-close" id="mobile-nav-close" type="button" aria-label="Close menu">
+          <span class="icon" data-icon="close"></span>
+        </button>
+        <a class="mobile-link" href="#categories">Categories</a>
+        <a class="mobile-link" href="#directory">Browse</a>
+        <a class="mobile-link" href="#about">About</a>
+        <a class="mobile-link" href="https://github.com/Kartikpatkar/dev-resource-hub" target="_blank" rel="noreferrer noopener">GitHub</a>
+      </aside>
+
+      <main id="top">
+        <section class="hero section-reveal">
+          <div class="hero-panel">
+            <form class="search-panel" role="search">
+              <p class="hero-inline-copy">Search useful websites, tools, and references fast.</p>
+              <label class="search-label" for="search-input">Search resources</label>
+              <div class="search-input-wrap">
+                <span class="icon search-icon" data-icon="search"></span>
+                <input
+                  id="search-input"
+                  type="search"
+                  placeholder="Search by name, notes, tags, or category"
+                  autocomplete="off"
+                >
+                <button
+                  class="category-toggle"
+                  id="category-toggle"
+                  type="button"
+                  aria-controls="categories"
+                  aria-expanded="false"
+                >
+                  Categories
+                </button>
+                <button id="clear-search" type="button" aria-label="Clear search">Clear</button>
+              </div>
+              <p class="hero-meta" id="hero-meta">Loading resource summary...</p>
+              <div class="quick-searches" id="quick-searches" aria-label="Quick searches"></div>
+            </form>
+          </div>
+        </section>
+
+        <section class="section section-reveal is-collapsed" id="categories" hidden>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Browse by category</p>
+              <h2><span class="heading-icon" data-icon="grid"></span>Jump straight into a topic</h2>
+            </div>
+            <p class="section-intro">
+              The directory stays broad, but the navigation stays tight. Pick a category or use
+              search to filter everything instantly.
+            </p>
+          </div>
+          <div class="category-grid" id="category-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="section section-reveal" id="directory">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Searchable directory</p>
+              <h2><span class="heading-icon" data-icon="compass"></span>Explore the full collection</h2>
+            </div>
+            <div class="directory-meta">
+              <p class="section-intro" id="results-summary">
+                Loading resources...
+              </p>
+              <button class="results-mode-toggle" id="results-mode-toggle" type="button" aria-pressed="true">
+                Top results only
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-toolbar">
+            <div class="filter-group" id="category-filters" aria-label="Category filters"></div>
+          </div>
+
+          <div class="resource-grid" id="resource-grid" aria-live="polite"></div>
+          <div class="empty-state hidden" id="empty-state">
+            <span class="empty-icon icon" data-icon="search"></span>
+            <h3>No matches found</h3>
+            <p>Try a simpler keyword or switch back to all categories.</p>
+            <button class="reset-button" id="reset-filters" type="button">Clear all filters</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer" id="about">
+        <div class="footer-note">
+          <p class="footer-note-title">About Resource Hub</p>
+          <p>
+            The repository stays Markdown-first for GitHub, while this website turns the same data
+            into a faster discovery experience for everyday browsing.
+          </p>
+        </div>
+        <div>
+          <a href="https://github.com/Kartikpatkar/dev-resource-hub/blob/main/README.md">Open the Markdown hub</a>
+          <a href="https://github.com/Kartikpatkar/dev-resource-hub">Repository</a>
+        </div>
+      </footer>
+
+    <template id="category-card-template">
+      <button class="category-card" type="button">
+        <span class="category-icon"></span>
+        <span class="category-name"></span>
+        <span class="category-meta"></span>
+      </button>
+    </template>
+
+    <template id="filter-chip-template">
+      <button class="filter-chip" type="button"></button>
+    </template>
+
+    <template id="quick-search-template">
+      <button class="quick-search" type="button"></button>
+    </template>
+
+    <template id="resource-card-template">
+      <article class="resource-card">
+        <div class="resource-card-top">
+          <div class="resource-identity">
+            <div class="resource-logo-shell">
+              <img class="resource-logo" alt="" loading="lazy" referrerpolicy="no-referrer">
+              <span class="resource-category-icon"></span>
+            </div>
+            <div class="resource-copy">
+              <p class="resource-category"></p>
+              <h3 class="resource-name"></h3>
+            </div>
+          </div>
+          <span class="resource-type"></span>
+        </div>
+        <div class="resource-description-wrap">
+          <p class="resource-description"></p>
+        </div>
+        <div class="tag-list"></div>
+        <div class="resource-card-actions">
+          <a class="visit-link" target="_blank" rel="noreferrer noopener">Visit</a>
+          <a class="source-link" target="_blank" rel="noreferrer noopener">Source</a>
+        </div>
+      </article>
+    </template>
+
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>

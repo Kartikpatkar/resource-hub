@@ -31,3 +31,43 @@
   Category: Tutorial
   Tags: interviews, engineering, youtube, career
   Notes: Engineering interview preparation content covering coding, system design, and hiring strategy.
+
+## Remote Work and Microtasks
+
+- Remotasks
+  Link: https://www.remotasks.com/en
+  Category: Platform
+  Tags: jobs, remote, tasks, career
+  Notes: Remote work platform offering microtasks and data-labeling jobs.
+
+- Neevo
+  Link: https://www.neevo.ai/
+  Category: Platform
+  Tags: jobs, tasks, crowdsourcing, remote
+  Notes: Crowdsourcing platform with paid data, testing, and language-related tasks.
+
+- Hive Micro
+  Link: https://hivemicro.com/
+  Category: Platform
+  Tags: jobs, tasks, online, microtasks
+  Notes: Microtask site where users complete small online jobs for payment.
+
+- Clickworker
+  Link: https://www.clickworker.com/
+  Category: Platform
+  Tags: jobs, freelance, remote, tasks
+  Notes: Freelance microjob platform for remote online work across a range of short tasks.
+
+## Companies and Hiring Platforms
+
+- RWS
+  Link: https://www.rws.com/c/
+  Category: Company
+  Tags: jobs, language, translation, localization
+  Notes: Global language-services company with work in translation, localization, and content operations.
+
+- Appen
+  Link: https://www.appen.com/
+  Category: Company
+  Tags: jobs, ai, annotation, remote
+  Notes: Company known for AI training-data and annotation work opportunities.
