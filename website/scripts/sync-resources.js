@@ -6,7 +6,7 @@ const path = require("node:path");
 const repoRoot = path.resolve(__dirname, "..");
 const categoriesDir = path.resolve(repoRoot, "..", "categories");
 const outputDir = path.resolve(repoRoot, "data");
-const repositoryBaseUrl = "https://github.com/Kartikpatkar/dev-resource-hub/blob/main";
+const repositoryBaseUrl = "https://github.com/Kartikpatkar/resource-hub/blob/main";
 
 const categoryDescriptions = {
   apis: "API references, tools, mock services, and public data endpoints.",

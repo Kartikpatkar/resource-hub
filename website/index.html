@@ -4,10 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resource Hub | Discover Useful Websites Fast</title>
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="application-name" content="Resource Hub">
     <meta
       name="description"
-      content="Resource Hub is a fast, category-based website for discovering useful tools, references, and websites across work, learning, media, finance, and more."
+      content="Resource Hub is a fast, searchable directory for discovering useful tools, references, learning resources, productivity apps, media tools, and everyday websites."
     >
+    <link rel="canonical" href="https://kartikpatkar.github.io/resource-hub/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Resource Hub">
+    <meta property="og:title" content="Resource Hub | Discover Useful Websites Fast">
+    <meta property="og:description" content="Search and browse a curated collection of useful websites across learning, productivity, finance, media, career, and more.">
+    <meta property="og:url" content="https://kartikpatkar.github.io/resource-hub/">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Resource Hub | Discover Useful Websites Fast">
+    <meta name="twitter:description" content="A searchable directory of useful websites, tools, and references across work, learning, and everyday utility.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,8 +31,40 @@
       rel="stylesheet"
     >
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "Resource Hub",
+            "url": "https://kartikpatkar.github.io/resource-hub/",
+            "description": "A searchable directory of useful websites, tools, references, and learning resources.",
+            "inLanguage": "en",
+            "publisher": {
+              "@type": "Person",
+              "name": "Kartik Patkar"
+            },
+            "sameAs": [
+              "https://github.com/Kartikpatkar/resource-hub"
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "name": "Resource Hub Directory",
+            "url": "https://kartikpatkar.github.io/resource-hub/",
+            "description": "Browse curated resources by category or search across tools, references, and learning links.",
+            "isPartOf": {
+              "@type": "WebSite",
+              "url": "https://kartikpatkar.github.io/resource-hub/"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
         <a class="brand" href="#top" aria-label="Resource Hub home">
           <span class="brand-mark">R</span>
@@ -30,7 +78,7 @@
           <a href="#categories">Categories</a>
           <a href="#directory">Browse</a>
           <a href="#about">About</a>
-          <a href="https://github.com/Kartikpatkar/dev-resource-hub">GitHub</a>
+          <a href="https://github.com/Kartikpatkar/resource-hub">GitHub</a>
         </nav>
 
         <button class="menu-button" id="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
@@ -46,14 +94,28 @@
         <a class="mobile-link" href="#categories">Categories</a>
         <a class="mobile-link" href="#directory">Browse</a>
         <a class="mobile-link" href="#about">About</a>
-        <a class="mobile-link" href="https://github.com/Kartikpatkar/dev-resource-hub" target="_blank" rel="noreferrer noopener">GitHub</a>
+        <a class="mobile-link" href="https://github.com/Kartikpatkar/resource-hub" target="_blank" rel="noreferrer noopener">GitHub</a>
       </aside>
 
-      <main id="top">
+      <noscript>
+        <section class="noscript-panel" aria-label="JavaScript fallback">
+          <p class="noscript-title">JavaScript is off</p>
+          <p>
+            The interactive directory needs JavaScript, but you can still browse the full Markdown hub on GitHub.
+          </p>
+          <p>
+            <a href="https://github.com/Kartikpatkar/resource-hub/blob/main/README.md">Open the Resource Hub README</a>
+            <a href="https://github.com/Kartikpatkar/resource-hub/tree/main/categories">Browse category files</a>
+          </p>
+        </section>
+      </noscript>
+
+      <main id="main-content">
         <section class="hero section-reveal">
           <div class="hero-panel">
             <form class="search-panel" role="search">
-              <p class="hero-inline-copy">Search useful websites, tools, and references fast.</p>
+              <h1>Discover useful websites faster.</h1>
+              <p class="hero-inline-copy">Search curated tools, references, learning resources, and practical websites in one place.</p>
               <label class="search-label" for="search-input">Search resources</label>
               <div class="search-input-wrap">
                 <span class="icon search-icon" data-icon="search"></span>
@@ -134,8 +196,8 @@
           </p>
         </div>
         <div>
-          <a href="https://github.com/Kartikpatkar/dev-resource-hub/blob/main/README.md">Open the Markdown hub</a>
-          <a href="https://github.com/Kartikpatkar/dev-resource-hub">Repository</a>
+          <a href="https://github.com/Kartikpatkar/resource-hub/blob/main/README.md">Open the Markdown hub</a>
+          <a href="https://github.com/Kartikpatkar/resource-hub">Repository</a>
         </div>
       </footer>
 

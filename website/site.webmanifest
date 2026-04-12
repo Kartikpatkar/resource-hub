@@ -1,0 +1,18 @@
+{
+  "name": "Resource Hub",
+  "short_name": "Resource Hub",
+  "description": "A searchable directory of useful websites, tools, and references.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

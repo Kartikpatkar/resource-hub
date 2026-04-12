@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Resource Hub</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#g)"/>
+  <path fill="#ffffff" d="M20 16h14.5c8.4 0 13.5 4.6 13.5 11.7c0 5.1-2.8 8.8-7.4 10.3L48 48h-9.6l-6.1-8.5H29V48h-9V16Zm13.3 16c3.7 0 5.8-1.5 5.8-4.2s-2.1-4-5.8-4H29v8.2h4.3Z"/>
+</svg>

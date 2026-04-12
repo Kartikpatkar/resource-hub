@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kartikpatkar.github.io/resource-hub/sitemap.xml
