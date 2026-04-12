@@ -13,7 +13,7 @@
       "contracts"
     ],
     "url": "https://swagger.io/specification/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 1,
     "featured": true
   },
@@ -31,7 +31,7 @@
       "learning"
     ],
     "url": "https://restfulapi.net",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 2,
     "featured": false
   },
@@ -49,7 +49,7 @@
       "collaboration"
     ],
     "url": "https://www.postman.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 3,
     "featured": false
   },
@@ -67,7 +67,7 @@
       "requests"
     ],
     "url": "https://hoppscotch.io",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 4,
     "featured": false
   },
@@ -86,7 +86,7 @@
       "testing"
     ],
     "url": "https://mockapi.io/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 5,
     "featured": false
   },
@@ -105,7 +105,7 @@
       "testing"
     ],
     "url": "https://my-json-server.typicode.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 6,
     "featured": false
   },
@@ -124,7 +124,7 @@
       "cloud"
     ],
     "url": "https://console.cloud.google.com/apis/library",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 7,
     "featured": false
   },
@@ -143,7 +143,7 @@
       "events"
     ],
     "url": "https://eonet.gsfc.nasa.gov/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 8,
     "featured": false
   },
@@ -162,7 +162,7 @@
       "forecast"
     ],
     "url": "https://openweathermap.org/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 9,
     "featured": false
   },
@@ -181,7 +181,7 @@
       "github"
     ],
     "url": "https://github.com/public-apis/public-apis",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 10,
     "featured": false
   },
@@ -200,7 +200,7 @@
       "search"
     ],
     "url": "https://newsapi.org/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 11,
     "featured": false
   },
@@ -219,7 +219,7 @@
       "reference"
     ],
     "url": "https://royaleapi.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/apis.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/apis.md",
     "order": 12,
     "featured": false
   },
@@ -238,7 +238,7 @@
       "planning"
     ],
     "url": "https://roadmap.sh",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 13,
     "featured": true
   },
@@ -257,7 +257,7 @@
       "practice"
     ],
     "url": "https://unstop.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 14,
     "featured": false
   },
@@ -276,7 +276,7 @@
       "jobs"
     ],
     "url": "https://in.indeed.com/career/salaries?from=gnav-homepage",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 15,
     "featured": false
   },
@@ -295,7 +295,7 @@
       "career"
     ],
     "url": "https://www.youtube.com/@IGotAnOffer-Engineering",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 16,
     "featured": false
   },
@@ -314,7 +314,7 @@
       "career"
     ],
     "url": "https://www.remotasks.com/en",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 17,
     "featured": false
   },
@@ -333,7 +333,7 @@
       "remote"
     ],
     "url": "https://www.neevo.ai/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 18,
     "featured": false
   },
@@ -352,7 +352,7 @@
       "microtasks"
     ],
     "url": "https://hivemicro.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 19,
     "featured": false
   },
@@ -371,7 +371,7 @@
       "tasks"
     ],
     "url": "https://www.clickworker.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 20,
     "featured": false
   },
@@ -390,7 +390,7 @@
       "localization"
     ],
     "url": "https://www.rws.com/c/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 21,
     "featured": false
   },
@@ -409,7 +409,7 @@
       "remote"
     ],
     "url": "https://www.appen.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/career.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/career.md",
     "order": 22,
     "featured": false
   },
@@ -427,7 +427,7 @@
       "productivity"
     ],
     "url": "https://www.one-tab.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/chrome-extensions.md",
     "order": 23,
     "featured": true
   },
@@ -445,7 +445,7 @@
       "browsing"
     ],
     "url": "https://github.com/gorhill/uBlock",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/chrome-extensions.md",
     "order": 24,
     "featured": false
   },
@@ -463,7 +463,7 @@
       "api"
     ],
     "url": "https://chromewebstore.google.com/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/chrome-extensions.md",
     "order": 25,
     "featured": false
   },
@@ -481,7 +481,7 @@
       "discovery"
     ],
     "url": "https://www.wappalyzer.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/chrome-extensions.md",
     "order": 26,
     "featured": false
   },
@@ -499,7 +499,7 @@
       "testing"
     ],
     "url": "https://chromewebstore.google.com/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/chrome-extensions.md",
     "order": 27,
     "featured": false
   },
@@ -517,7 +517,7 @@
       "debugging"
     ],
     "url": "https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/chrome-extensions.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/chrome-extensions.md",
     "order": 28,
     "featured": false
   },
@@ -535,7 +535,7 @@
       "devtools"
     ],
     "url": "https://developer.chrome.com/docs/devtools/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/debugging.md",
     "order": 29,
     "featured": true
   },
@@ -553,7 +553,7 @@
       "browser"
     ],
     "url": "https://firefox-source-docs.mozilla.org/devtools-user/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/debugging.md",
     "order": 30,
     "featured": false
   },
@@ -571,7 +571,7 @@
       "workflow"
     ],
     "url": "https://code.visualstudio.com/docs/editor/debugging",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/debugging.md",
     "order": 31,
     "featured": false
   },
@@ -589,7 +589,7 @@
       "backend"
     ],
     "url": "https://nodejs.org/en/docs/guides/debugging-getting-started/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/debugging.md",
     "order": 32,
     "featured": false
   },
@@ -607,7 +607,7 @@
       "learning"
     ],
     "url": "https://www.debuggingbook.org",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/debugging.md",
     "order": 33,
     "featured": false
   },
@@ -625,7 +625,7 @@
       "logs"
     ],
     "url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_debugging_debug_log.htm",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/debugging.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/debugging.md",
     "order": 34,
     "featured": false
   },
@@ -643,7 +643,7 @@
       "productivity"
     ],
     "url": "https://code.visualstudio.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/dev-tools.md",
     "order": 35,
     "featured": true
   },
@@ -661,7 +661,7 @@
       "terminal"
     ],
     "url": "https://cli.github.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/dev-tools.md",
     "order": 36,
     "featured": false
   },
@@ -680,7 +680,7 @@
       "productivity"
     ],
     "url": "https://cursor.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/dev-tools.md",
     "order": 37,
     "featured": false
   },
@@ -698,7 +698,7 @@
       "data"
     ],
     "url": "https://jqlang.org",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/dev-tools.md",
     "order": 38,
     "featured": false
   },
@@ -716,7 +716,7 @@
       "codebase"
     ],
     "url": "https://github.com/BurntSushi/ripgrep",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/dev-tools.md",
     "order": 39,
     "featured": false
   },
@@ -735,7 +735,7 @@
       "analysis"
     ],
     "url": "https://geospy.ai",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/dev-tools.md",
     "order": 40,
     "featured": false
   },
@@ -754,7 +754,7 @@
       "captions"
     ],
     "url": "https://portal.vision.cognitive.azure.com/demo/image-captioning",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/dev-tools.md",
     "order": 41,
     "featured": false
   },
@@ -772,7 +772,7 @@
       "ecosystem"
     ],
     "url": "https://nodejs.org",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/dev-tools.md",
     "order": 42,
     "featured": false
   },
@@ -790,7 +790,7 @@
       "performance"
     ],
     "url": "https://pnpm.io",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/dev-tools.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/dev-tools.md",
     "order": 43,
     "featured": false
   },
@@ -809,7 +809,7 @@
       "analysis"
     ],
     "url": "https://ticker.finology.in/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/finance.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/finance.md",
     "order": 44,
     "featured": true
   },
@@ -828,7 +828,7 @@
       "finance"
     ],
     "url": "https://buyhatke.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/finance.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/finance.md",
     "order": 45,
     "featured": false
   },
@@ -847,7 +847,7 @@
       "rewards"
     ],
     "url": "https://flash.co/home",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/finance.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/finance.md",
     "order": 46,
     "featured": false
   },
@@ -866,7 +866,7 @@
       "automation"
     ],
     "url": "https://oboe.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/finance.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/finance.md",
     "order": 47,
     "featured": false
   },
@@ -884,7 +884,7 @@
       "fundamentals"
     ],
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/javascript.md",
     "order": 48,
     "featured": true
   },
@@ -902,7 +902,7 @@
       "language"
     ],
     "url": "https://tc39.es/ecma262/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/javascript.md",
     "order": 49,
     "featured": false
   },
@@ -920,7 +920,7 @@
       "library"
     ],
     "url": "https://lodash.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/javascript.md",
     "order": 50,
     "featured": false
   },
@@ -938,7 +938,7 @@
       "types"
     ],
     "url": "https://zod.dev",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/javascript.md",
     "order": 51,
     "featured": false
   },
@@ -956,7 +956,7 @@
       "learning"
     ],
     "url": "https://javascript.info",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/javascript.md",
     "order": 52,
     "featured": false
   },
@@ -974,7 +974,7 @@
       "learning"
     ],
     "url": "https://github.com/getify/You-Dont-Know-JS",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/javascript.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/javascript.md",
     "order": 53,
     "featured": false
   },
@@ -992,7 +992,7 @@
       "practice"
     ],
     "url": "https://www.freecodecamp.org",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 54,
     "featured": true
   },
@@ -1010,7 +1010,7 @@
       "structured"
     ],
     "url": "https://www.coursera.org",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 55,
     "featured": false
   },
@@ -1029,7 +1029,7 @@
       "learning"
     ],
     "url": "https://www.hackerrank.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 56,
     "featured": false
   },
@@ -1048,7 +1048,7 @@
       "practice"
     ],
     "url": "https://leetcode.com/explore/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 57,
     "featured": false
   },
@@ -1067,7 +1067,7 @@
       "structured"
     ],
     "url": "https://www.algoexpert.io/product",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 58,
     "featured": false
   },
@@ -1085,7 +1085,7 @@
       "learning"
     ],
     "url": "https://refactoring.guru",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 59,
     "featured": false
   },
@@ -1103,7 +1103,7 @@
       "learning"
     ],
     "url": "http://highscalability.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 60,
     "featured": false
   },
@@ -1121,7 +1121,7 @@
       "courses"
     ],
     "url": "https://ocw.mit.edu",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 61,
     "featured": false
   },
@@ -1140,7 +1140,7 @@
       "quizzes"
     ],
     "url": "https://www.turbo.ai/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 62,
     "featured": false
   },
@@ -1159,7 +1159,7 @@
       "courses"
     ],
     "url": "https://tutorai.me/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 63,
     "featured": false
   },
@@ -1178,7 +1178,7 @@
       "skills"
     ],
     "url": "https://www.typingbolt.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 64,
     "featured": false
   },
@@ -1197,7 +1197,7 @@
       "beginners"
     ],
     "url": "https://codecombat.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 65,
     "featured": false
   },
@@ -1216,7 +1216,7 @@
       "practice"
     ],
     "url": "https://www.codingame.com/start/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 66,
     "featured": false
   },
@@ -1235,7 +1235,7 @@
       "skills"
     ],
     "url": "https://www.codewars.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 67,
     "featured": false
   },
@@ -1254,7 +1254,7 @@
       "learning"
     ],
     "url": "https://flexboxfroggy.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 68,
     "featured": false
   },
@@ -1273,7 +1273,7 @@
       "learning"
     ],
     "url": "https://exercism.org/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 69,
     "featured": false
   },
@@ -1292,7 +1292,7 @@
       "productivity"
     ],
     "url": "https://www.keybr.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 70,
     "featured": false
   },
@@ -1311,7 +1311,7 @@
       "practice"
     ],
     "url": "https://leetcode.com/discuss/post/460599/blind-75-leetcode-questions-by-krishnade-9xev/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 71,
     "featured": false
   },
@@ -1330,7 +1330,7 @@
       "learning"
     ],
     "url": "https://www.youtube.com/@hello_interview",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 72,
     "featured": false
   },
@@ -1349,7 +1349,7 @@
       "learning"
     ],
     "url": "https://gitmastery.me/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 73,
     "featured": false
   },
@@ -1368,7 +1368,7 @@
       "training"
     ],
     "url": "https://humanbenchmark.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 74,
     "featured": false
   },
@@ -1387,7 +1387,7 @@
       "creativity"
     ],
     "url": "https://littlealchemy2.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 75,
     "featured": false
   },
@@ -1406,7 +1406,7 @@
       "game"
     ],
     "url": "https://murdle.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 76,
     "featured": false
   },
@@ -1425,7 +1425,7 @@
       "learning"
     ],
     "url": "https://www.typingclub.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 77,
     "featured": false
   },
@@ -1444,7 +1444,7 @@
       "practice"
     ],
     "url": "https://www.puzzleprime.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 78,
     "featured": false
   },
@@ -1463,7 +1463,7 @@
       "pronunciation"
     ],
     "url": "https://www.languageguide.org/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 79,
     "featured": false
   },
@@ -1482,7 +1482,7 @@
       "skills"
     ],
     "url": "https://behindtheemail.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 80,
     "featured": false
   },
@@ -1501,7 +1501,7 @@
       "travel"
     ],
     "url": "https://www.loecsen.com/en",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 81,
     "featured": false
   },
@@ -1520,7 +1520,7 @@
       "learning"
     ],
     "url": "https://github.com/tkarim45/Beginner-Data-Science-Projects",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 82,
     "featured": false
   },
@@ -1539,7 +1539,7 @@
       "learning"
     ],
     "url": "https://musclewiki.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 83,
     "featured": false
   },
@@ -1558,7 +1558,7 @@
       "notes"
     ],
     "url": "https://www.studyfetch.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 84,
     "featured": false
   },
@@ -1577,7 +1577,7 @@
       "study"
     ],
     "url": "https://www.digitalbook.io/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 85,
     "featured": false
   },
@@ -1596,7 +1596,7 @@
       "research"
     ],
     "url": "https://www.oldmapsonline.org/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 86,
     "featured": false
   },
@@ -1615,7 +1615,7 @@
       "maps"
     ],
     "url": "https://learn-anything.xyz/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 87,
     "featured": false
   },
@@ -1634,7 +1634,7 @@
       "lessons"
     ],
     "url": "https://india.ck12.org/student/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 88,
     "featured": false
   },
@@ -1653,7 +1653,7 @@
       "reference"
     ],
     "url": "https://world-monitor.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/learning.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/learning.md",
     "order": 89,
     "featured": false
   },
@@ -1672,7 +1672,7 @@
       "content"
     ],
     "url": "https://www.canva.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 90,
     "featured": true
   },
@@ -1691,7 +1691,7 @@
       "media"
     ],
     "url": "https://www.clickasnap.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 91,
     "featured": false
   },
@@ -1710,7 +1710,7 @@
       "planning"
     ],
     "url": "https://planner5d.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 92,
     "featured": false
   },
@@ -1729,7 +1729,7 @@
       "content"
     ],
     "url": "https://express.adobe.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 93,
     "featured": false
   },
@@ -1748,7 +1748,7 @@
       "visuals"
     ],
     "url": "https://www.designarena.ai/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 94,
     "featured": false
   },
@@ -1767,7 +1767,7 @@
       "content"
     ],
     "url": "https://www.opus.pro/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 95,
     "featured": false
   },
@@ -1786,7 +1786,7 @@
       "design"
     ],
     "url": "https://www.flexclip.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 96,
     "featured": false
   },
@@ -1805,7 +1805,7 @@
       "content"
     ],
     "url": "https://www.kapwing.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 97,
     "featured": false
   },
@@ -1824,7 +1824,7 @@
       "analysis"
     ],
     "url": "https://scenex.jina.ai/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 98,
     "featured": false
   },
@@ -1843,7 +1843,7 @@
       "organization"
     ],
     "url": "https://ai.nero.com/photo-tagger-organizer",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 99,
     "featured": false
   },
@@ -1862,7 +1862,7 @@
       "utility"
     ],
     "url": "https://www.freeconvert.com/image-converter",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 100,
     "featured": false
   },
@@ -1881,7 +1881,7 @@
       "utility"
     ],
     "url": "https://www5.lunapic.com/editor/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 101,
     "featured": false
   },
@@ -1900,7 +1900,7 @@
       "utility"
     ],
     "url": "https://jimpl.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 102,
     "featured": false
   },
@@ -1919,7 +1919,7 @@
       "utility"
     ],
     "url": "https://imagecompressor.11zon.com/en/image-compressor/compress-image-without-losing-quality",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 103,
     "featured": false
   },
@@ -1938,7 +1938,7 @@
       "typography"
     ],
     "url": "https://photext.shop/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 104,
     "featured": false
   },
@@ -1957,7 +1957,7 @@
       "soundboard"
     ],
     "url": "https://www.myinstants.com/en/index/us/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/media.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/media.md",
     "order": 105,
     "featured": false
   },
@@ -1975,7 +1975,7 @@
       "organization"
     ],
     "url": "https://gettingthingsdone.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 106,
     "featured": true
   },
@@ -1993,7 +1993,7 @@
       "time-management"
     ],
     "url": "https://pomofocus.io",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 107,
     "featured": false
   },
@@ -2011,7 +2011,7 @@
       "productivity"
     ],
     "url": "https://obsidian.md",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 108,
     "featured": false
   },
@@ -2029,7 +2029,7 @@
       "productivity"
     ],
     "url": "https://logseq.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 109,
     "featured": false
   },
@@ -2048,7 +2048,7 @@
       "research"
     ],
     "url": "https://chatgpt.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 110,
     "featured": false
   },
@@ -2067,7 +2067,7 @@
       "workflow"
     ],
     "url": "https://www.ilovepdf.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 111,
     "featured": false
   },
@@ -2086,7 +2086,7 @@
       "workflow"
     ],
     "url": "https://inflact.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 112,
     "featured": false
   },
@@ -2105,7 +2105,7 @@
       "productivity"
     ],
     "url": "https://tools.picsart.com/text/ai-writer/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 113,
     "featured": false
   },
@@ -2123,7 +2123,7 @@
       "productivity"
     ],
     "url": "https://github.com/tmux/tmux/wiki",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 114,
     "featured": false
   },
@@ -2141,7 +2141,7 @@
       "automation"
     ],
     "url": "https://www.alfredapp.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 115,
     "featured": false
   },
@@ -2160,7 +2160,7 @@
       "workflow"
     ],
     "url": "https://www.toolfk.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 116,
     "featured": false
   },
@@ -2179,7 +2179,7 @@
       "browser"
     ],
     "url": "https://toffeeshare.com/en/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 117,
     "featured": false
   },
@@ -2198,7 +2198,7 @@
       "productivity"
     ],
     "url": "https://lightpdf.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 118,
     "featured": false
   },
@@ -2217,7 +2217,7 @@
       "utility"
     ],
     "url": "https://tinywow.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 119,
     "featured": false
   },
@@ -2236,7 +2236,7 @@
       "productivity"
     ],
     "url": "https://labs.google.com/pomelli/about/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 120,
     "featured": false
   },
@@ -2255,7 +2255,7 @@
       "discovery"
     ],
     "url": "https://www.aixploria.com/en/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 121,
     "featured": false
   },
@@ -2274,7 +2274,7 @@
       "productivity"
     ],
     "url": "https://www.oxaam.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 122,
     "featured": false
   },
@@ -2293,7 +2293,7 @@
       "decisions"
     ],
     "url": "https://pareto.ai/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 123,
     "featured": false
   },
@@ -2312,7 +2312,7 @@
       "productivity"
     ],
     "url": "https://www.kimi.com/en/slides",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 124,
     "featured": false
   },
@@ -2331,7 +2331,7 @@
       "content"
     ],
     "url": "https://www.genspark.ai/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 125,
     "featured": false
   },
@@ -2350,7 +2350,7 @@
       "productivity"
     ],
     "url": "https://arena.ai/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 126,
     "featured": false
   },
@@ -2369,7 +2369,7 @@
       "workflow"
     ],
     "url": "https://useastra.in/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/productivity.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/productivity.md",
     "order": 127,
     "featured": false
   },
@@ -2387,7 +2387,7 @@
       "platform"
     ],
     "url": "https://developer.salesforce.com/docs",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 128,
     "featured": true
   },
@@ -2405,7 +2405,7 @@
       "backend"
     ],
     "url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 129,
     "featured": false
   },
@@ -2423,7 +2423,7 @@
       "api"
     ],
     "url": "https://workbench.developerforce.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 130,
     "featured": false
   },
@@ -2441,7 +2441,7 @@
       "productivity"
     ],
     "url": "https://chromewebstore.google.com/detail/salesforce-inspector-relo/inhfocnfiinnjgplpfgpelhlciedaonc",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 131,
     "featured": false
   },
@@ -2460,7 +2460,7 @@
       "assets"
     ],
     "url": "https://www.salesforceicons.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 132,
     "featured": false
   },
@@ -2479,7 +2479,7 @@
       "coding"
     ],
     "url": "https://www.apexsandbox.io/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 133,
     "featured": false
   },
@@ -2497,7 +2497,7 @@
       "training"
     ],
     "url": "https://trailhead.salesforce.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 134,
     "featured": false
   },
@@ -2515,7 +2515,7 @@
       "learning"
     ],
     "url": "https://www.apexhours.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 135,
     "featured": false
   },
@@ -2534,7 +2534,7 @@
       "github"
     ],
     "url": "https://github.com/meruff/trailhead-leaderboard",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 136,
     "featured": false
   },
@@ -2553,7 +2553,7 @@
       "deployment"
     ],
     "url": "https://www.infallibletechie.com/2014/07/salesforce-components-names-for-ant-tool.html",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 137,
     "featured": false
   },
@@ -2572,7 +2572,7 @@
       "architecture"
     ],
     "url": "https://github.com/Coding-With-The-Force/Salesforce-Design-Patterns",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/salesforce.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/salesforce.md",
     "order": 138,
     "featured": false
   },
@@ -2590,7 +2590,7 @@
       "owasp"
     ],
     "url": "https://owasp.org/www-project-top-ten/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/security.md",
     "order": 139,
     "featured": true
   },
@@ -2608,7 +2608,7 @@
       "best-practices"
     ],
     "url": "https://cheatsheetseries.owasp.org",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/security.md",
     "order": 140,
     "featured": false
   },
@@ -2626,7 +2626,7 @@
       "scanning"
     ],
     "url": "https://snyk.io",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/security.md",
     "order": 141,
     "featured": false
   },
@@ -2644,7 +2644,7 @@
       "web"
     ],
     "url": "https://observatory.mozilla.org",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/security.md",
     "order": 142,
     "featured": false
   },
@@ -2663,7 +2663,7 @@
       "utility"
     ],
     "url": "https://superlogout.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/security.md",
     "order": 143,
     "featured": false
   },
@@ -2681,7 +2681,7 @@
       "web"
     ],
     "url": "https://portswigger.net/web-security",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/security.md",
     "order": 144,
     "featured": false
   },
@@ -2699,7 +2699,7 @@
       "governance"
     ],
     "url": "https://csrc.nist.gov/Projects/ssdf",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/security.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/security.md",
     "order": 145,
     "featured": false
   },
@@ -2717,7 +2717,7 @@
       "learning"
     ],
     "url": "https://github.com/donnemartin/system-design-primer",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/system-design.md",
     "order": 146,
     "featured": true
   },
@@ -2735,7 +2735,7 @@
       "architecture"
     ],
     "url": "https://sre.google/books/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/system-design.md",
     "order": 147,
     "featured": false
   },
@@ -2753,7 +2753,7 @@
       "patterns"
     ],
     "url": "https://learn.microsoft.com/azure/architecture/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/system-design.md",
     "order": 148,
     "featured": false
   },
@@ -2771,7 +2771,7 @@
       "design"
     ],
     "url": "https://martinfowler.com/architecture/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/system-design.md",
     "order": 149,
     "featured": false
   },
@@ -2789,7 +2789,7 @@
       "architecture"
     ],
     "url": "https://dataintensive.net",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/system-design.md",
     "order": 150,
     "featured": false
   },
@@ -2807,7 +2807,7 @@
       "deployment"
     ],
     "url": "https://12factor.net",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/system-design.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/system-design.md",
     "order": 151,
     "featured": false
   },
@@ -2825,7 +2825,7 @@
       "accessibility"
     ],
     "url": "https://testing-library.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/testing.md",
     "order": 152,
     "featured": true
   },
@@ -2843,7 +2843,7 @@
       "unit-tests"
     ],
     "url": "https://jestjs.io",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/testing.md",
     "order": 153,
     "featured": false
   },
@@ -2861,7 +2861,7 @@
       "postman"
     ],
     "url": "https://learning.postman.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/testing.md",
     "order": 154,
     "featured": false
   },
@@ -2879,7 +2879,7 @@
       "browser"
     ],
     "url": "https://playwright.dev",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/testing.md",
     "order": 155,
     "featured": false
   },
@@ -2897,7 +2897,7 @@
       "architecture"
     ],
     "url": "https://martinfowler.com/articles/practical-test-pyramid.html",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/testing.md",
     "order": 156,
     "featured": false
   },
@@ -2915,7 +2915,7 @@
       "apex"
     ],
     "url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_best_practices.htm",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/testing.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/testing.md",
     "order": 157,
     "featured": false
   },
@@ -2933,7 +2933,7 @@
       "inspiration"
     ],
     "url": "https://www.awwwards.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 158,
     "featured": true
   },
@@ -2951,7 +2951,7 @@
       "inspiration"
     ],
     "url": "https://dribbble.com",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 159,
     "featured": false
   },
@@ -2969,7 +2969,7 @@
       "components"
     ],
     "url": "https://m3.material.io",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 160,
     "featured": false
   },
@@ -2987,7 +2987,7 @@
       "design-system"
     ],
     "url": "https://developer.apple.com/design/human-interface-guidelines/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 161,
     "featured": false
   },
@@ -3006,7 +3006,7 @@
       "design"
     ],
     "url": "https://stitch.withgoogle.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 162,
     "featured": false
   },
@@ -3025,7 +3025,7 @@
       "ai"
     ],
     "url": "https://www.visily.ai/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 163,
     "featured": false
   },
@@ -3044,7 +3044,7 @@
       "design"
     ],
     "url": "https://icons8.com/icons/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 164,
     "featured": false
   },
@@ -3063,7 +3063,7 @@
       "ui"
     ],
     "url": "https://www.svgrepo.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 165,
     "featured": false
   },
@@ -3082,7 +3082,7 @@
       "graphics"
     ],
     "url": "https://www.freepik.com/icons",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 166,
     "featured": false
   },
@@ -3101,7 +3101,7 @@
       "graphics"
     ],
     "url": "https://www.flaticon.com/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 167,
     "featured": false
   },
@@ -3120,7 +3120,7 @@
       "ui"
     ],
     "url": "https://yqnn.github.io/svg-path-editor/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 168,
     "featured": false
   },
@@ -3138,7 +3138,7 @@
       "standards"
     ],
     "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 169,
     "featured": false
   },
@@ -3156,7 +3156,7 @@
       "design"
     ],
     "url": "https://www.getstark.co",
-    "sourcePath": "https://github.com/Kartikpatkar/dev-resource-hub/blob/main/categories/ui-ux.md",
+    "sourcePath": "https://github.com/Kartikpatkar/resource-hub/blob/main/categories/ui-ux.md",
     "order": 170,
     "featured": false
   }
