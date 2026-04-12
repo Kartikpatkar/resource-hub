@@ -310,7 +310,6 @@ function renderResourceList(container, resources) {
     const card = fragment.querySelector(".resource-card");
     const logo = fragment.querySelector(".resource-logo");
     const description = fragment.querySelector(".resource-description");
-    const expandToggle = fragment.querySelector(".resource-expand-toggle");
     const descriptionId = `resource-description-${resource.id}`;
 
     fragment.querySelector(".resource-category-icon").innerHTML = getCategoryIcon(resource.categorySlug);
@@ -319,7 +318,6 @@ function renderResourceList(container, resources) {
     fragment.querySelector(".resource-type").textContent = resource.resourceType;
     description.id = descriptionId;
     description.textContent = resource.description;
-    expandToggle.setAttribute("aria-controls", descriptionId);
 
     bindFavicon(logo, resource);
 
@@ -335,11 +333,6 @@ function renderResourceList(container, resources) {
       tagElement.className = "tag";
       tagElement.textContent = `#${tag}`;
       tagList.append(tagElement);
-    });
-
-    expandToggle.addEventListener("click", (event) => {
-      event.stopPropagation();
-      toggleResourceCard(card, container);
     });
 
     card.addEventListener("click", (event) => {
@@ -359,7 +352,6 @@ function toggleResourceCard(card, container) {
 
   collapseResourceCards(container, shouldExpand ? card : null);
   card.classList.toggle("is-expanded", shouldExpand);
-  syncResourceCardToggle(card);
 }
 
 function collapseResourceCards(container, exceptCard = null) {
@@ -369,19 +361,7 @@ function collapseResourceCards(container, exceptCard = null) {
     }
 
     card.classList.remove("is-expanded");
-    syncResourceCardToggle(card);
   });
-}
-
-function syncResourceCardToggle(card) {
-  const toggle = card.querySelector(".resource-expand-toggle");
-  if (!toggle) {
-    return;
-  }
-
-  const isExpanded = card.classList.contains("is-expanded");
-  toggle.textContent = isExpanded ? "Hide" : "Details";
-  toggle.setAttribute("aria-expanded", String(isExpanded));
 }
 
 function supportsHoverCards() {

@@ -547,10 +547,6 @@ body.categories-collapsed #directory {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .resource-expand-toggle {
-    display: none;
-  }
-
   .resource-grid:has(.resource-card:hover) .resource-card {
     transform: scale(0.96);
     opacity: 0.76;
@@ -614,20 +610,24 @@ body.categories-collapsed #directory {
 .resource-description {
   margin: 0;
   font-size: 0.92rem;
+  min-height: 0;
   overflow: hidden;
 }
 
 .resource-description-wrap {
-  display: grid;
-  grid-template-rows: 0fr;
+  max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: grid-template-rows 220ms ease, opacity 180ms ease;
+  visibility: hidden;
+  transition: max-height 220ms ease, opacity 180ms ease, visibility 180ms ease;
 }
 
-.resource-card:is(:hover, :focus-within, .is-expanded) .resource-description-wrap {
-  grid-template-rows: 1fr;
+.resource-card:hover .resource-description-wrap,
+.resource-card:focus-within .resource-description-wrap,
+.resource-card.is-expanded .resource-description-wrap {
+  max-height: 160px;
   opacity: 1;
+  visibility: visible;
 }
 
 .tag {
@@ -688,8 +688,7 @@ body.categories-collapsed #directory {
 }
 
 .visit-link,
-.source-link,
-.resource-expand-toggle {
+.source-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -708,20 +707,6 @@ body.categories-collapsed #directory {
   color: var(--text);
   border: 1px solid var(--line);
   background: #ffffff;
-}
-
-.resource-expand-toggle {
-  border: 1px solid var(--line);
-  cursor: pointer;
-  color: var(--muted);
-  background: #ffffff;
-}
-
-.resource-expand-toggle:hover,
-.resource-expand-toggle:focus-visible {
-  color: var(--text);
-  border-color: rgba(37, 99, 235, 0.24);
-  background: rgba(37, 99, 235, 0.06);
 }
 
 .empty-state {
@@ -827,7 +812,7 @@ body.categories-collapsed #directory {
   }
 
   .resource-card-actions {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1088,11 +1073,10 @@ body.categories-collapsed #directory {
 
   .resource-card-actions {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
   }
 
-  .resource-expand-toggle,
   .visit-link,
   .source-link {
     min-height: 36px;
