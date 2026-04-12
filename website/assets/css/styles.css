@@ -38,19 +38,32 @@ body {
 }
 
 .skip-link {
-  position: fixed;
-  top: 16px;
-  left: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 90;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
   padding: 10px 14px;
   border-radius: 999px;
   color: #ffffff;
   background: var(--blue-strong);
-  transform: translateY(-160%);
   transition: transform 160ms ease;
 }
 
-.skip-link:focus {
+.skip-link:focus,
+.skip-link:focus-visible {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
   transform: translateY(0);
 }
 
