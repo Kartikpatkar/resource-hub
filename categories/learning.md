@@ -231,3 +231,123 @@
   Category: Tool
   Tags: data, world, statistics, reference
   Notes: Live global dashboard for population, economic, and environmental statistics.
+
+- Anime.js
+  Link: https://animejs.com/
+  Category: Tool
+  Tags: animation, javascript, frontend
+  Notes: Lightweight JavaScript animation library for UI and creative effects.
+
+- CheckiO
+  Link: https://checkio.org/
+  Category: Tutorial
+  Tags: coding, games, python, practice
+  Notes: Game-based platform for learning Python and TypeScript through coding challenges.
+
+- Mystery Game (Knightlab)
+  Link: https://mystery.knightlab.com/
+  Category: Game
+  Tags: puzzle, logic, learning
+  Notes: Interactive mystery puzzle for logic and deduction.
+
+- Flukeout CSS
+  Link: https://flukeout.github.io/
+  Category: Tutorial
+  Tags: css, selectors, frontend, practice
+  Notes: Interactive game for mastering CSS selectors.
+
+- Coddy
+  Link: https://coddy.tech/
+  Category: Tutorial
+  Tags: coding, practice, learning
+  Notes: Coding practice platform with interactive challenges.
+
+- LabEx
+  Link: https://labex.io/
+  Category: Tutorial
+  Tags: coding, labs, practice
+  Notes: Hands-on coding labs for learning programming and DevOps.
+
+- Slow Roads
+  Link: https://slowroads.io/
+  Category: Game
+  Tags: driving, simulation, relaxation
+  Notes: Endless driving game for relaxation and exploration.
+
+- Project-based Learning
+  Link: https://github.com/practical-tutorials/project-based-learning
+  Category: Documentation
+  Tags: projects, learning, github
+  Notes: Curated list of project-based learning resources.
+
+- Coding Interview University
+  Link: https://github.com/jwasham/coding-interview-university
+  Category: Documentation
+  Tags: interview, learning, github
+  Notes: Comprehensive computer science study plan for interviews.
+
+- App Ideas
+  Link: https://github.com/florinpop17/app-ideas
+  Category: Documentation
+  Tags: projects, ideas, github
+  Notes: Collection of app ideas for practical development practice.
+
+- RealWorld Apps
+  Link: https://github.com/realworld-apps/realworld
+  Category: Documentation
+  Tags: projects, examples, github
+  Notes: Example apps for learning real-world development patterns.
+
+- Developer Portfolios
+  Link: https://github.com/emmabostian/developer-portfolios
+  Category: Documentation
+  Tags: portfolios, inspiration, github
+  Notes: Showcase of developer portfolios for inspiration.
+
+- Free for Dev
+  Link: https://github.com/jixserver/free-for-dev
+  Category: Documentation
+  Tags: free, tools, github
+  Notes: List of free services and tools for developers.
+
+- Papers We Love
+  Link: https://github.com/papers-we-love/papers-we-love
+  Category: Documentation
+  Tags: papers, research, github
+  Notes: Community-curated collection of computer science papers.
+
+- Awesome Distributed Systems
+  Link: https://github.com/theanalyst/awesome-distributed-systems
+  Category: Documentation
+  Tags: distributed-systems, github
+  Notes: Curated list of distributed systems resources.
+
+- OSSU Computer Science
+  Link: https://github.com/ossu/computer-science
+  Category: Documentation
+  Tags: computer-science, github
+  Notes: Open-source computer science curriculum.
+
+- GStack
+  Link: https://github.com/garrytan/gstack
+  Category: Documentation
+  Tags: stack, github
+  Notes: Curated list of developer stacks and resources.
+
+- NotebookLM
+  Link: https://notebooklm.google/
+  Category: Tool
+  Tags: ai, notes, google
+  Notes: AI-powered notebook for organizing and summarizing information.
+
+- Roadmap.sh
+  Link: https://roadmap.sh/
+  Category: Documentation
+  Tags: roadmap, learning, guides
+  Notes: Developer roadmaps and guides for learning paths.
+
+- Anthropic Skilljar
+  Link: https://anthropic.skilljar.com/
+  Category: Tutorial
+  Tags: ai, anthropic, learning
+  Notes: Official learning resources from Anthropic.
