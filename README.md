@@ -140,6 +140,14 @@ If a resource fits multiple areas, place it in the category where it is most lik
 - simple manual maintenance
 - compatible with future search indexing and GitHub Pages publishing
 
+## Live GitHub Page
+
+You can browse this resource hub as a website at:
+
+- https://kartikpatkar.github.io/resource-hub/
+
+The GitHub Pages site is automatically generated from the Markdown and JSON data in this repository, providing a searchable and user-friendly interface for all resources.
+
 ## License
 
 This repository is available under the MIT License.

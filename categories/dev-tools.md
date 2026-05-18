@@ -63,3 +63,49 @@
   Category: Tool
   Tags: package-manager, javascript, performance
   Notes: Fast package manager with efficient disk usage and strong monorepo support.
+
+## Collaboration & Social Coding
+
+- Kosmi
+  Link: https://app.kosmi.io/
+  Category: Tool
+  Tags: collaboration, virtual, social
+  Notes: Online virtual hangout and collaboration rooms.
+
+- Devpost
+  Link: https://devpost.com/
+  Category: Platform
+  Tags: hackathons, competitions, dev
+  Notes: Platform for hackathons and developer competitions.
+
+- ArnisMC
+  Link: https://arnismc.com/
+  Category: Platform
+  Tags: minecraft, collaboration, dev
+  Notes: Minecraft server for collaborative coding and events.
+
+## Hosting & Deployment
+
+- Cloudflare Pages
+  Link: https://pages.cloudflare.com/
+  Category: Platform
+  Tags: hosting, cloudflare, jamstack
+  Notes: JAMstack hosting platform by Cloudflare.
+
+- Cloudflare Workers
+  Link: https://workers.cloudflare.com/
+  Category: Platform
+  Tags: serverless, cloudflare, edge
+  Notes: Serverless functions and edge compute by Cloudflare.
+
+- Cloudflare D1
+  Link: https://developers.cloudflare.com/d1/
+  Category: Platform
+  Tags: database, cloudflare, serverless
+  Notes: Cloudflare's serverless SQL database.
+
+- Cloudflare R2
+  Link: https://www.cloudflare.com/en-in/developer-platform/products/r2/
+  Category: Platform
+  Tags: storage, cloudflare, object-storage
+  Notes: Cloudflare's S3-compatible object storage.
