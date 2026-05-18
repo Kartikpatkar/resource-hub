@@ -2,6 +2,20 @@
 
 # Media Resources
 
+## Games & Interactive Media
+
+- CrazyGames
+  Link: https://www.crazygames.com/
+  Category: Platform
+  Tags: games, browser, media
+  Notes: Online platform for browser-based games.
+
+- Board Game Arena
+  Link: https://en.boardgamearena.com/gamelist
+  Category: Platform
+  Tags: games, boardgames, media
+  Notes: Online platform for playing board games with others.
+
 ## Visual Creation
 
 - Canva
@@ -34,31 +48,113 @@
   Tags: design, ai, graphics, visuals
   Notes: AI-powered design platform for generating creative assets and visual concepts.
 
-## Video Tools
-
-- OpusClip
-  Link: https://www.opus.pro/
+- Animoto
+  Link: https://animoto.com/
   Category: Tool
-  Tags: video, ai, editing, content
-  Notes: AI video tool that turns long-form videos into shorter clips and social-ready edits.
+  Tags: video, creation, media
+  Notes: Online video maker for creating slideshows and marketing videos.
 
-- FlexClip
-  Link: https://www.flexclip.com/
+- Photopea
+  Link: https://www.photopea.com/
   Category: Tool
-  Tags: video, editing, content, design
-  Notes: Online video creation and editing platform for quick visual content production.
+  Tags: image, editor, photoshop
+  Notes: Advanced browser-based image editor supporting PSD and other formats.
 
-- Kapwing
-  Link: https://www.kapwing.com/
+- Veed.io
+  Link: https://www.veed.io/
   Category: Tool
-  Tags: video, editing, captions, content
-  Notes: Collaborative browser-based tool for video editing, subtitles, and repurposing content.
+  Tags: video, editing, media
+  Notes: Online video editing platform with AI features.
 
-- Scenex by Jina AI
-  Link: https://scenex.jina.ai/
+- Pictory AI
+  Link: https://pictory.ai/
   Category: Tool
-  Tags: ai, video, scenes, analysis
-  Notes: AI tool for understanding, indexing, and navigating scenes from video content.
+  Tags: video, ai, editing
+  Notes: AI-powered video creation from text content.
+
+- ElevenLabs
+  Link: https://elevenlabs.io/
+  Category: Tool
+  Tags: ai, voice, media
+  Notes: AI voice generation and text-to-speech platform.
+
+- Freepik
+  Link: https://www.freepik.com/
+  Category: Tool
+  Tags: graphics, assets, media
+  Notes: Large library of free and premium graphic resources.
+
+- Kling AI
+  Link: https://kling.ai/
+  Category: Tool
+  Tags: ai, video, media
+  Notes: AI-powered video generation platform.
+
+- Copy.ai
+  Link: https://www.copy.ai/
+  Category: Tool
+  Tags: ai, writing, content
+  Notes: AI writing assistant for content creation.
+
+- Social Blade
+  Link: https://socialblade.com/
+  Category: Tool
+  Tags: analytics, social, media
+  Notes: Social media analytics and stats platform.
+
+- Vidiq
+  Link: https://vidiq.com/
+  Category: Tool
+  Tags: youtube, analytics, media
+  Notes: YouTube analytics and growth tool.
+
+- GetPoppy AI
+  Link: https://getpoppy.ai/
+  Category: Tool
+  Tags: ai, video, media
+  Notes: AI-powered video creation and editing tool.
+
+- Sora by OpenAI
+  Link: https://openai.com/index/sora/
+  Category: Tool
+  Tags: ai, video, openai
+  Notes: OpenAI's video generation model.
+
+- Queens Journal
+  Link: https://queensjournal.app/
+  Category: Platform
+  Tags: journalism, student, media
+  Notes: Online student journalism and creative content.
+
+- Space Type Generator
+  Link: https://spacetypegenerator.com/
+  Category: Tool
+  Tags: typography, creative, media
+  Notes: Interactive typography and creative text effects.
+
+- Student Toolbox
+  Link: https://studenttoolbox.fun/
+  Category: Tool
+  Tags: students, tools, media
+  Notes: Online utilities and tools for students.
+
+- Terraink
+  Link: https://terraink.app/
+  Category: Tool
+  Tags: terrain, maps, media
+  Notes: Procedural terrain and map generator.
+
+- F4Map Demo
+  Link: https://demo.f4map.com/
+  Category: Tool
+  Tags: maps, 3d, media
+  Notes: 3D map visualization demo.
+
+- Nichesss
+  Link: https://nichesss.com/
+  Category: Tool
+  Tags: ai, content, media
+  Notes: AI-powered content and business idea generator.
 
 ## Image Utilities
 

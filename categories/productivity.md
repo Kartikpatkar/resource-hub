@@ -56,6 +56,84 @@
   Tags: ai, writing, content, productivity
   Notes: AI writing tool for generating and refining text content for drafts, posts, and lightweight content tasks.
 
+- CiteVox Free Tools
+  Link: https://citevox.com/free-tools
+  Category: Tool
+  Tags: research, productivity, free
+  Notes: Free tools for research, writing, and productivity.
+
+- QuickRef.me
+  Link: https://quickref.me/
+  Category: Tool
+  Tags: reference, cheatsheet, productivity
+  Notes: Quick reference cheatsheets for developers.
+
+- LocalConvert
+  Link: https://localconvert.com/
+  Category: Tool
+  Tags: conversion, files, productivity
+  Notes: Online file conversion tools.
+
+- Goblin Tools
+  Link: https://goblin.tools/
+  Category: Tool
+  Tags: ai, productivity, workflow
+  Notes: AI-powered tools for planning, breaking down tasks, and more.
+
+- FCS New
+  Link: https://fcsnew.net/
+  Category: Tool
+  Tags: files, sharing, productivity
+  Notes: Free cloud storage and file sharing.
+
+- ProFreeHost
+  Link: https://profreehost.com/
+  Category: Tool
+  Tags: hosting, free, productivity
+  Notes: Free web hosting platform.
+
+- Griddy AI
+  Link: https://getgriddy.ai/
+  Category: Tool
+  Tags: ai, productivity, workflow
+  Notes: AI-powered productivity and workflow tools.
+
+- Poe
+  Link: https://poe.com/about
+  Category: Tool
+  Tags: ai, chat, productivity
+  Notes: AI chat platform aggregating multiple models.
+
+- Mixo
+  Link: https://www.mixo.io/
+  Category: Tool
+  Tags: ai, startup, productivity
+  Notes: AI-powered tool for launching startup landing pages.
+
+- Contra
+  Link: https://contra.com/
+  Category: Platform
+  Tags: freelance, jobs, productivity
+  Notes: Platform for finding freelance work and projects.
+
+- Claude AI
+  Link: https://claude.ai/
+  Category: Tool
+  Tags: ai, chat, productivity
+  Notes: AI assistant for writing, research, and productivity.
+
+- Napkin AI
+  Link: https://www.napkin.ai/
+  Category: Tool
+  Tags: ai, notes, productivity
+  Notes: AI-powered note-taking and idea organization.
+
+- OpenWhen Letters
+  Link: https://openwhenletters.app/
+  Category: Tool
+  Tags: letters, communication, productivity
+  Notes: Send and receive digital 'open when' letters.
+
 ## Developer Efficiency
 
 - tmux
