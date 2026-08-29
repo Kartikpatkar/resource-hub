@@ -158,6 +158,12 @@
 
 ## Image Utilities
 
+- Metadata Remover Viewer
+  Link: https://metadataremover.ai/metadata-viewer
+  Category: Tool
+  Tags: images, metadata, exif, privacy
+  Notes: Inspects EXIF, GPS, XMP, and IPTC locally in the browser without uploading files.
+
 - Nero AI Photo Tagger Organizer
   Link: https://ai.nero.com/photo-tagger-organizer
   Category: Tool
