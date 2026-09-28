@@ -138,6 +138,12 @@
   Tags: brain, memory, reaction, training
   Notes: Interactive benchmark tests for memory, reaction time, typing speed, and other cognitive skills.
 
+- ReactionMetric
+  Link: https://reactionmetric.com/
+  Category: Tool
+  Tags: reaction, reflex, benchmark, practice
+  Notes: Free browser reaction-time benchmark with repeatable five-trial testing and immediate result statistics.
+
 - Little Alchemy 2
   Link: https://littlealchemy2.com/
   Category: Game
