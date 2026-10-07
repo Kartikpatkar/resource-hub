@@ -176,6 +176,7 @@
   Tags: images, conversion, editing, utility
   Notes: Quick browser-based image conversion tool for common formats.
 
+- [FileOnTap HEIC to JPG](https://fileontap.com/heic-to-jpg/) - Free browser-based HEIC to JPG converter, files stay on device.
 - LunaPic Editor
   Link: https://www5.lunapic.com/editor/
   Category: Tool
